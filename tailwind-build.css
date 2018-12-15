@@ -3122,6 +3122,7 @@ h4,
 h5,
 h6 {
   font-family: Playfair Display, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
+  line-height: 1.25;
 }
 
 /* Text meant only for screen readers. */
