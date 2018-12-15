@@ -672,27 +672,27 @@ h6 {
   background-color: rgb(240, 240, 240);
 }
 
-.toggleCheck\:checked ~ .toggleChecked\:bg-transparent {
+.toggleCheck:checked ~ .toggleChecked\:bg-transparent {
   background-color: transparent;
 }
 
-.toggleCheck\:checked ~ .toggleChecked\:bg-foreground {
+.toggleCheck:checked ~ .toggleChecked\:bg-foreground {
   background-color: rgb(20, 20, 20);
 }
 
-.toggleCheck\:checked ~ .toggleChecked\:bg-background {
+.toggleCheck:checked ~ .toggleChecked\:bg-background {
   background-color: rgb(240, 240, 240);
 }
 
-.toggleCheck\:checked ~ .toggleChecked\:bg-backgroundSlight {
+.toggleCheck:checked ~ .toggleChecked\:bg-backgroundSlight {
   background-color: rgb(240, 240, 240, .1);
 }
 
-.toggleCheck\:checked ~ .toggleChecked\:bg-primary {
+.toggleCheck:checked ~ .toggleChecked\:bg-primary {
   background-color: rgb(98, 111, 162);
 }
 
-.toggleCheck\:checked ~ .toggleChecked\:bg-primaryText {
+.toggleCheck:checked ~ .toggleChecked\:bg-primaryText {
   background-color: rgb(240, 240, 240);
 }
 
@@ -1208,31 +1208,31 @@ h6 {
   display: none;
 }
 
-.toggleCheck\:checked ~ .toggleChecked\:block {
+.toggleCheck:checked ~ .toggleChecked\:block {
   display: block;
 }
 
-.toggleCheck\:checked ~ .toggleChecked\:inline-block {
+.toggleCheck:checked ~ .toggleChecked\:inline-block {
   display: inline-block;
 }
 
-.toggleCheck\:checked ~ .toggleChecked\:inline {
+.toggleCheck:checked ~ .toggleChecked\:inline {
   display: inline;
 }
 
-.toggleCheck\:checked ~ .toggleChecked\:table {
+.toggleCheck:checked ~ .toggleChecked\:table {
   display: table;
 }
 
-.toggleCheck\:checked ~ .toggleChecked\:table-row {
+.toggleCheck:checked ~ .toggleChecked\:table-row {
   display: table-row;
 }
 
-.toggleCheck\:checked ~ .toggleChecked\:table-cell {
+.toggleCheck:checked ~ .toggleChecked\:table-cell {
   display: table-cell;
 }
 
-.toggleCheck\:checked ~ .toggleChecked\:hidden {
+.toggleCheck:checked ~ .toggleChecked\:hidden {
   display: none;
 }
 
@@ -2821,27 +2821,27 @@ h6 {
   color: rgb(240, 240, 240);
 }
 
-.toggleCheck\:checked ~ .toggleChecked\:text-transparent {
+.toggleCheck:checked ~ .toggleChecked\:text-transparent {
   color: transparent;
 }
 
-.toggleCheck\:checked ~ .toggleChecked\:text-foreground {
+.toggleCheck:checked ~ .toggleChecked\:text-foreground {
   color: rgb(20, 20, 20);
 }
 
-.toggleCheck\:checked ~ .toggleChecked\:text-background {
+.toggleCheck:checked ~ .toggleChecked\:text-background {
   color: rgb(240, 240, 240);
 }
 
-.toggleCheck\:checked ~ .toggleChecked\:text-backgroundSlight {
+.toggleCheck:checked ~ .toggleChecked\:text-backgroundSlight {
   color: rgb(240, 240, 240, .1);
 }
 
-.toggleCheck\:checked ~ .toggleChecked\:text-primary {
+.toggleCheck:checked ~ .toggleChecked\:text-primary {
   color: rgb(98, 111, 162);
 }
 
-.toggleCheck\:checked ~ .toggleChecked\:text-primaryText {
+.toggleCheck:checked ~ .toggleChecked\:text-primaryText {
   color: rgb(240, 240, 240);
 }
 
@@ -3339,27 +3339,27 @@ h6 {
     background-color: rgb(240, 240, 240);
   }
 
-  .toggleCheck\:checked ~ .desktop\:toggleChecked\:bg-transparent {
+  .toggleCheck:checked ~ .desktop\:toggleChecked\:bg-transparent {
     background-color: transparent;
   }
 
-  .toggleCheck\:checked ~ .desktop\:toggleChecked\:bg-foreground {
+  .toggleCheck:checked ~ .desktop\:toggleChecked\:bg-foreground {
     background-color: rgb(20, 20, 20);
   }
 
-  .toggleCheck\:checked ~ .desktop\:toggleChecked\:bg-background {
+  .toggleCheck:checked ~ .desktop\:toggleChecked\:bg-background {
     background-color: rgb(240, 240, 240);
   }
 
-  .toggleCheck\:checked ~ .desktop\:toggleChecked\:bg-backgroundSlight {
+  .toggleCheck:checked ~ .desktop\:toggleChecked\:bg-backgroundSlight {
     background-color: rgb(240, 240, 240, .1);
   }
 
-  .toggleCheck\:checked ~ .desktop\:toggleChecked\:bg-primary {
+  .toggleCheck:checked ~ .desktop\:toggleChecked\:bg-primary {
     background-color: rgb(98, 111, 162);
   }
 
-  .toggleCheck\:checked ~ .desktop\:toggleChecked\:bg-primaryText {
+  .toggleCheck:checked ~ .desktop\:toggleChecked\:bg-primaryText {
     background-color: rgb(240, 240, 240);
   }
 
@@ -3867,31 +3867,31 @@ h6 {
     display: none;
   }
 
-  .toggleCheck\:checked ~ .desktop\:toggleChecked\:block {
+  .toggleCheck:checked ~ .desktop\:toggleChecked\:block {
     display: block;
   }
 
-  .toggleCheck\:checked ~ .desktop\:toggleChecked\:inline-block {
+  .toggleCheck:checked ~ .desktop\:toggleChecked\:inline-block {
     display: inline-block;
   }
 
-  .toggleCheck\:checked ~ .desktop\:toggleChecked\:inline {
+  .toggleCheck:checked ~ .desktop\:toggleChecked\:inline {
     display: inline;
   }
 
-  .toggleCheck\:checked ~ .desktop\:toggleChecked\:table {
+  .toggleCheck:checked ~ .desktop\:toggleChecked\:table {
     display: table;
   }
 
-  .toggleCheck\:checked ~ .desktop\:toggleChecked\:table-row {
+  .toggleCheck:checked ~ .desktop\:toggleChecked\:table-row {
     display: table-row;
   }
 
-  .toggleCheck\:checked ~ .desktop\:toggleChecked\:table-cell {
+  .toggleCheck:checked ~ .desktop\:toggleChecked\:table-cell {
     display: table-cell;
   }
 
-  .toggleCheck\:checked ~ .desktop\:toggleChecked\:hidden {
+  .toggleCheck:checked ~ .desktop\:toggleChecked\:hidden {
     display: none;
   }
 
@@ -5464,27 +5464,27 @@ h6 {
     color: rgb(240, 240, 240);
   }
 
-  .toggleCheck\:checked ~ .desktop\:toggleChecked\:text-transparent {
+  .toggleCheck:checked ~ .desktop\:toggleChecked\:text-transparent {
     color: transparent;
   }
 
-  .toggleCheck\:checked ~ .desktop\:toggleChecked\:text-foreground {
+  .toggleCheck:checked ~ .desktop\:toggleChecked\:text-foreground {
     color: rgb(20, 20, 20);
   }
 
-  .toggleCheck\:checked ~ .desktop\:toggleChecked\:text-background {
+  .toggleCheck:checked ~ .desktop\:toggleChecked\:text-background {
     color: rgb(240, 240, 240);
   }
 
-  .toggleCheck\:checked ~ .desktop\:toggleChecked\:text-backgroundSlight {
+  .toggleCheck:checked ~ .desktop\:toggleChecked\:text-backgroundSlight {
     color: rgb(240, 240, 240, .1);
   }
 
-  .toggleCheck\:checked ~ .desktop\:toggleChecked\:text-primary {
+  .toggleCheck:checked ~ .desktop\:toggleChecked\:text-primary {
     color: rgb(98, 111, 162);
   }
 
-  .toggleCheck\:checked ~ .desktop\:toggleChecked\:text-primaryText {
+  .toggleCheck:checked ~ .desktop\:toggleChecked\:text-primaryText {
     color: rgb(240, 240, 240);
   }
 
