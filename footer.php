@@ -1,4 +1,4 @@
-</section>
+    </section>
     <footer id="footer" class="footer py-2xl bg-primary text-primaryText">
         <div class="contentBlock">
             <p>All text copyright 2007-present, Mother Jones Heritage Project, a 501-c-3 non-profit, unless otherwise stated. Our materials come from a variety of sources. Users must contact us, or the rights holders, for any usage of images or similar media. Contact us with any questions.</p>

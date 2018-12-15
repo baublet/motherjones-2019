@@ -17,7 +17,9 @@
                 </a>
             </div>
             <div class="navigation">
-
+                <?php wp_nav_menu([
+                    'menu' => 'main_menu'
+                ]); ?>
             </div>
         </div>
     </header>

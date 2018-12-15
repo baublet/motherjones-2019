@@ -23,6 +23,6 @@ add_action('after_setup_theme', 'customThemeSupport');
 
 register_nav_menus(
     [
-        'main_menu' => __('Menu principal', 'principal-menu')
+        'main_menu' => __('Header menu')
     ]
 );
