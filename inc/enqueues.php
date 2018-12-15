@@ -9,8 +9,7 @@ function enqueueTheThemeScriptsAndStyles()
 
     // Default theme stylesheet
     wp_enqueue_style('style', get_stylesheet_directory_uri() . '/reset.css');
-    wp_enqueue_style('style', get_stylesheet_directory_uri() . '/tailwind.css');
-    wp_enqueue_style('style', get_stylesheet_directory_uri() . '/wp.css');
+    wp_enqueue_style('style', get_stylesheet_directory_uri() . '/tailwind-build.css');
     wp_enqueue_style('style', 'https://fonts.googleapis.com/css?family=Aleo:400,400i,700|Playfair+Display|Roboto:400,400i,500');
 
     // Default js of your theme to add your own js scripts, add dependances if needed
