@@ -547,6 +547,10 @@ table {
   background-color: rgb(240, 240, 240);
 }
 
+.bg-backgroundSlight {
+  background-color: rgb(240, 240, 240, .1);
+}
+
 .bg-primary {
   background-color: rgb(98, 111, 162);
 }
@@ -567,6 +571,10 @@ table {
   background-color: rgb(240, 240, 240);
 }
 
+.hover\:bg-backgroundSlight:hover {
+  background-color: rgb(240, 240, 240, .1);
+}
+
 .hover\:bg-primary:hover {
   background-color: rgb(98, 111, 162);
 }
@@ -585,6 +593,10 @@ table {
 
 .focus\:bg-background:focus {
   background-color: rgb(240, 240, 240);
+}
+
+.focus\:bg-backgroundSlight:focus {
+  background-color: rgb(240, 240, 240, .1);
 }
 
 .focus\:bg-primary:focus {
@@ -679,6 +691,10 @@ table {
   border-color: rgb(240, 240, 240);
 }
 
+.border-backgroundSlight {
+  border-color: rgb(240, 240, 240, .1);
+}
+
 .border-primary {
   border-color: rgb(98, 111, 162);
 }
@@ -699,6 +715,10 @@ table {
   border-color: rgb(240, 240, 240);
 }
 
+.hover\:border-backgroundSlight:hover {
+  border-color: rgb(240, 240, 240, .1);
+}
+
 .hover\:border-primary:hover {
   border-color: rgb(98, 111, 162);
 }
@@ -717,6 +737,10 @@ table {
 
 .focus\:border-background:focus {
   border-color: rgb(240, 240, 240);
+}
+
+.focus\:border-backgroundSlight:focus {
+  border-color: rgb(240, 240, 240, .1);
 }
 
 .focus\:border-primary:focus {
@@ -2620,6 +2644,10 @@ table {
   color: rgb(240, 240, 240);
 }
 
+.text-backgroundSlight {
+  color: rgb(240, 240, 240, .1);
+}
+
 .text-primary {
   color: rgb(98, 111, 162);
 }
@@ -2640,6 +2668,10 @@ table {
   color: rgb(240, 240, 240);
 }
 
+.hover\:text-backgroundSlight:hover {
+  color: rgb(240, 240, 240, .1);
+}
+
 .hover\:text-primary:hover {
   color: rgb(98, 111, 162);
 }
@@ -2658,6 +2690,10 @@ table {
 
 .focus\:text-background:focus {
   color: rgb(240, 240, 240);
+}
+
+.focus\:text-backgroundSlight:focus {
+  color: rgb(240, 240, 240, .1);
 }
 
 .focus\:text-primary:focus {
@@ -3115,13 +3151,16 @@ table {
 
 .footer a {
   color: rgb(240, 240, 240);
-  opacity: .75;
+  text-decoration: none;
+  border-bottom-width: 1px;
+  border-style: solid;
+  border-color: rgb(240, 240, 240, .1);
 }
 
 .footer a:hover,
 .footer a:focus,
 .footer a:active {
-  opacity: 1;
+  border-color: rgb(240, 240, 240);
 }
 
 @media (min-width: 940px) {
@@ -3160,6 +3199,10 @@ table {
     background-color: rgb(240, 240, 240);
   }
 
+  .desktop\:bg-backgroundSlight {
+    background-color: rgb(240, 240, 240, .1);
+  }
+
   .desktop\:bg-primary {
     background-color: rgb(98, 111, 162);
   }
@@ -3180,6 +3223,10 @@ table {
     background-color: rgb(240, 240, 240);
   }
 
+  .desktop\:hover\:bg-backgroundSlight:hover {
+    background-color: rgb(240, 240, 240, .1);
+  }
+
   .desktop\:hover\:bg-primary:hover {
     background-color: rgb(98, 111, 162);
   }
@@ -3198,6 +3245,10 @@ table {
 
   .desktop\:focus\:bg-background:focus {
     background-color: rgb(240, 240, 240);
+  }
+
+  .desktop\:focus\:bg-backgroundSlight:focus {
+    background-color: rgb(240, 240, 240, .1);
   }
 
   .desktop\:focus\:bg-primary:focus {
@@ -3284,6 +3335,10 @@ table {
     border-color: rgb(240, 240, 240);
   }
 
+  .desktop\:border-backgroundSlight {
+    border-color: rgb(240, 240, 240, .1);
+  }
+
   .desktop\:border-primary {
     border-color: rgb(98, 111, 162);
   }
@@ -3304,6 +3359,10 @@ table {
     border-color: rgb(240, 240, 240);
   }
 
+  .desktop\:hover\:border-backgroundSlight:hover {
+    border-color: rgb(240, 240, 240, .1);
+  }
+
   .desktop\:hover\:border-primary:hover {
     border-color: rgb(98, 111, 162);
   }
@@ -3322,6 +3381,10 @@ table {
 
   .desktop\:focus\:border-background:focus {
     border-color: rgb(240, 240, 240);
+  }
+
+  .desktop\:focus\:border-backgroundSlight:focus {
+    border-color: rgb(240, 240, 240, .1);
   }
 
   .desktop\:focus\:border-primary:focus {
@@ -5209,6 +5272,10 @@ table {
     color: rgb(240, 240, 240);
   }
 
+  .desktop\:text-backgroundSlight {
+    color: rgb(240, 240, 240, .1);
+  }
+
   .desktop\:text-primary {
     color: rgb(98, 111, 162);
   }
@@ -5229,6 +5296,10 @@ table {
     color: rgb(240, 240, 240);
   }
 
+  .desktop\:hover\:text-backgroundSlight:hover {
+    color: rgb(240, 240, 240, .1);
+  }
+
   .desktop\:hover\:text-primary:hover {
     color: rgb(98, 111, 162);
   }
@@ -5247,6 +5318,10 @@ table {
 
   .desktop\:focus\:text-background:focus {
     color: rgb(240, 240, 240);
+  }
+
+  .desktop\:focus\:text-backgroundSlight:focus {
+    color: rgb(240, 240, 240, .1);
   }
 
   .desktop\:focus\:text-primary:focus {

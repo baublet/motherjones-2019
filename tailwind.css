@@ -47,11 +47,14 @@
 
 .footer a {
     @apply text-primaryText;
-    @apply opacity-75;
+    @apply no-underline;
+    @apply border-b;
+    @apply border-solid;
+    @apply border-backgroundSlight;
 }
 
 .footer a:hover,
 .footer a:focus,
 .footer a:active {
-    @apply opacity-100;
+    @apply border-background;
 }

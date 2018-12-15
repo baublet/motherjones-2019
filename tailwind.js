@@ -6,6 +6,7 @@ let colors = {
   'foreground': 'rgb(20, 20, 20)',
 
   'background': 'rgb(240, 240, 240)',
+  'backgroundSlight': 'rgb(240, 240, 240, .1)',
 
   'primary': 'rgb(98, 111, 162)',
   'primaryText': 'rgb(240, 240, 240)',
