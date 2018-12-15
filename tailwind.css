@@ -1,6 +1,5 @@
 @tailwind preflight;
 @tailwind components;
-@tailwind utilities;
 
 .contentBlock {
     width: 100%;
@@ -67,3 +66,5 @@ h1, h2, h3, h4, h5 , h6 {
 .footer a:active {
     @apply border-background;
 }
+
+@tailwind utilities;

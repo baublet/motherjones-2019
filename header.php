@@ -17,9 +17,16 @@
                 </a>
             </div>
             <div class="navigation">
-                <?php wp_nav_menu([
-                    'menu' => 'main_menu'
-                ]); ?>
+                <input type="checkbox" id="headerNav" class="toggleCheck hidden" />
+                <label for="headerNav" class="desktop:hidden bg-primary text-primaryText .toggleChecked:bg-foreground .toggleChecked:text-background">
+                    Navigation
+                    <i class="fas fa-ellipsis-v"></i>
+                </label>
+                <div class="hidden toggleCheck:block desktop:block">
+                    <?php wp_nav_menu([
+                        'menu' => 'main_menu'
+                    ]); ?>
+                </div>
             </div>
         </div>
     </header>

@@ -502,14 +502,79 @@ table {
   border-collapse: collapse;
 }
 
-.container {
+.contentBlock {
   width: 100%;
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
-@media (min-width: 940px) {
-  .container {
-    max-width: 940px;
-  }
+p + p {
+  margin-top: 2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Playfair Display, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
+  line-height: 1.25;
+}
+
+/* Text meant only for screen readers. */
+
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, .6);
+  clip: auto !important;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: .875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000; /* Above WP toolbar. */
+}
+
+.alignright {
+  float: right;
+}
+
+.alignleft {
+  float: left;
+}
+
+.footer a {
+  color: rgb(240, 240, 240);
+  text-decoration: none;
+  border-bottom-width: 1px;
+  border-style: solid;
+  border-color: rgb(240, 240, 240, .1);
+}
+
+.footer a:hover,
+.footer a:focus,
+.footer a:active {
+  border-color: rgb(240, 240, 240);
 }
 
 .list-reset {
@@ -604,6 +669,30 @@ table {
 }
 
 .focus\:bg-primaryText:focus {
+  background-color: rgb(240, 240, 240);
+}
+
+.toggleCheck\:checked ~ .toggleChecked:bg-transparent {
+  background-color: transparent;
+}
+
+.toggleCheck\:checked ~ .toggleChecked:bg-foreground {
+  background-color: rgb(20, 20, 20);
+}
+
+.toggleCheck\:checked ~ .toggleChecked:bg-background {
+  background-color: rgb(240, 240, 240);
+}
+
+.toggleCheck\:checked ~ .toggleChecked:bg-backgroundSlight {
+  background-color: rgb(240, 240, 240, .1);
+}
+
+.toggleCheck\:checked ~ .toggleChecked:bg-primary {
+  background-color: rgb(98, 111, 162);
+}
+
+.toggleCheck\:checked ~ .toggleChecked:bg-primaryText {
   background-color: rgb(240, 240, 240);
 }
 
@@ -1116,6 +1205,34 @@ table {
 }
 
 .hidden {
+  display: none;
+}
+
+.toggleCheck\:checked ~ .toggleChecked:block {
+  display: block;
+}
+
+.toggleCheck\:checked ~ .toggleChecked:inline-block {
+  display: inline-block;
+}
+
+.toggleCheck\:checked ~ .toggleChecked:inline {
+  display: inline;
+}
+
+.toggleCheck\:checked ~ .toggleChecked:table {
+  display: table;
+}
+
+.toggleCheck\:checked ~ .toggleChecked:table-row {
+  display: table-row;
+}
+
+.toggleCheck\:checked ~ .toggleChecked:table-cell {
+  display: table-cell;
+}
+
+.toggleCheck\:checked ~ .toggleChecked:hidden {
   display: none;
 }
 
@@ -2704,6 +2821,30 @@ table {
   color: rgb(240, 240, 240);
 }
 
+.toggleCheck\:checked ~ .toggleChecked:text-transparent {
+  color: transparent;
+}
+
+.toggleCheck\:checked ~ .toggleChecked:text-foreground {
+  color: rgb(20, 20, 20);
+}
+
+.toggleCheck\:checked ~ .toggleChecked:text-background {
+  color: rgb(240, 240, 240);
+}
+
+.toggleCheck\:checked ~ .toggleChecked:text-backgroundSlight {
+  color: rgb(240, 240, 240, .1);
+}
+
+.toggleCheck\:checked ~ .toggleChecked:text-primary {
+  color: rgb(98, 111, 162);
+}
+
+.toggleCheck\:checked ~ .toggleChecked:text-primaryText {
+  color: rgb(240, 240, 240);
+}
+
 .text-xs {
   font-size: .75rem;
 }
@@ -3102,81 +3243,6 @@ table {
   z-index: auto;
 }
 
-.contentBlock {
-  width: 100%;
-  max-width: 1024px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-p + p {
-  margin-top: 2rem;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: Playfair Display, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
-  line-height: 1.25;
-}
-
-/* Text meant only for screen readers. */
-
-.screen-reader-text {
-  clip: rect(1px, 1px, 1px, 1px);
-  position: absolute !important;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-}
-
-.screen-reader-text:focus {
-  background-color: #f1f1f1;
-  border-radius: 3px;
-  box-shadow: 0 0 2px 2px rgba(0, 0, 0, .6);
-  clip: auto !important;
-  color: #21759b;
-  display: block;
-  font-size: 14px;
-  font-size: .875rem;
-  font-weight: bold;
-  height: auto;
-  left: 5px;
-  line-height: normal;
-  padding: 15px 23px 14px;
-  text-decoration: none;
-  top: 5px;
-  width: auto;
-  z-index: 100000; /* Above WP toolbar. */
-}
-
-.alignright {
-  float: right;
-}
-
-.alignleft {
-  float: left;
-}
-
-.footer a {
-  color: rgb(240, 240, 240);
-  text-decoration: none;
-  border-bottom-width: 1px;
-  border-style: solid;
-  border-color: rgb(240, 240, 240, .1);
-}
-
-.footer a:hover,
-.footer a:focus,
-.footer a:active {
-  border-color: rgb(240, 240, 240);
-}
-
 @media (min-width: 940px) {
   .desktop\:list-reset {
     list-style: none;
@@ -3270,6 +3336,30 @@ h6 {
   }
 
   .desktop\:focus\:bg-primaryText:focus {
+    background-color: rgb(240, 240, 240);
+  }
+
+  .toggleCheck\:checked ~ .desktop\:toggleChecked:bg-transparent {
+    background-color: transparent;
+  }
+
+  .toggleCheck\:checked ~ .desktop\:toggleChecked:bg-foreground {
+    background-color: rgb(20, 20, 20);
+  }
+
+  .toggleCheck\:checked ~ .desktop\:toggleChecked:bg-background {
+    background-color: rgb(240, 240, 240);
+  }
+
+  .toggleCheck\:checked ~ .desktop\:toggleChecked:bg-backgroundSlight {
+    background-color: rgb(240, 240, 240, .1);
+  }
+
+  .toggleCheck\:checked ~ .desktop\:toggleChecked:bg-primary {
+    background-color: rgb(98, 111, 162);
+  }
+
+  .toggleCheck\:checked ~ .desktop\:toggleChecked:bg-primaryText {
     background-color: rgb(240, 240, 240);
   }
 
@@ -3774,6 +3864,34 @@ h6 {
   }
 
   .desktop\:hidden {
+    display: none;
+  }
+
+  .toggleCheck\:checked ~ .desktop\:toggleChecked:block {
+    display: block;
+  }
+
+  .toggleCheck\:checked ~ .desktop\:toggleChecked:inline-block {
+    display: inline-block;
+  }
+
+  .toggleCheck\:checked ~ .desktop\:toggleChecked:inline {
+    display: inline;
+  }
+
+  .toggleCheck\:checked ~ .desktop\:toggleChecked:table {
+    display: table;
+  }
+
+  .toggleCheck\:checked ~ .desktop\:toggleChecked:table-row {
+    display: table-row;
+  }
+
+  .toggleCheck\:checked ~ .desktop\:toggleChecked:table-cell {
+    display: table-cell;
+  }
+
+  .toggleCheck\:checked ~ .desktop\:toggleChecked:hidden {
     display: none;
   }
 
@@ -5343,6 +5461,30 @@ h6 {
   }
 
   .desktop\:focus\:text-primaryText:focus {
+    color: rgb(240, 240, 240);
+  }
+
+  .toggleCheck\:checked ~ .desktop\:toggleChecked:text-transparent {
+    color: transparent;
+  }
+
+  .toggleCheck\:checked ~ .desktop\:toggleChecked:text-foreground {
+    color: rgb(20, 20, 20);
+  }
+
+  .toggleCheck\:checked ~ .desktop\:toggleChecked:text-background {
+    color: rgb(240, 240, 240);
+  }
+
+  .toggleCheck\:checked ~ .desktop\:toggleChecked:text-backgroundSlight {
+    color: rgb(240, 240, 240, .1);
+  }
+
+  .toggleCheck\:checked ~ .desktop\:toggleChecked:text-primary {
+    color: rgb(98, 111, 162);
+  }
+
+  .toggleCheck\:checked ~ .desktop\:toggleChecked:text-primaryText {
     color: rgb(240, 240, 240);
   }
 
