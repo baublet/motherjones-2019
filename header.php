@@ -22,7 +22,7 @@
                     <span>Navigation</span>
                     <i class="fas fa-ellipsis-v"></i>
                 </label>
-                <div class="hidden toggleChecked:block desktop:block p-sm desktop:p-0">
+                <div class="navigationPanel hidden toggleChecked:block desktop:block p-sm desktop:p-0">
                     <?php wp_nav_menu([
                         'menu' => 'main_menu'
                     ]); ?>
