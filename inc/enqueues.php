@@ -2,24 +2,10 @@
 
 function enqueueTheThemeScriptsAndStyles()
 {
-    // Comment reply JS
-    if (is_singular()) {
-        wp_enqueue_script('comment-reply');
-    }
-
     // Default theme stylesheet
     wp_enqueue_style('style', get_stylesheet_directory_uri() . '/reset.css');
     wp_enqueue_style('style', get_stylesheet_directory_uri() . '/tailwind-build.css');
     wp_enqueue_style('style', 'https://fonts.googleapis.com/css?family=Aleo:400,400i,700|Playfair+Display|Roboto:400,400i,500');
-
-    // Default js of your theme to add your own js scripts, add dependances if needed
-    wp_enqueue_script(
-        'scripts',
-        get_stylesheet_directory_uri() . '/js/scripts.js',
-        [],
-        null,
-        true
-    );
 }
 add_action('wp_enqueue_scripts', 'enqueueTheThemeScriptsAndStyles');
 

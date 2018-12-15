@@ -19,7 +19,7 @@ module.exports = {
   },
 
   fonts: {
-    'smallText': [
+    'bodyText': [
       'Roboto',
       'system-ui',
       'BlinkMacSystemFont',
