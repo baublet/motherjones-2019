@@ -207,22 +207,22 @@ module.exports = {
 
   padding: {
     "0": "0",
-    xs: ".5rem",
-    sm: "1rem",
-    base: "2rem",
-    lg: "3rem",
-    xl: "4rem",
-    "2xl": "6rem"
+    xs: ".333rem",
+    sm: ".5rem",
+    base: "1rem",
+    lg: "2rem",
+    xl: "3rem",
+    "2xl": "5rem"
   },
 
   margin: {
     "0": "0",
-    xs: ".5rem",
-    sm: "1rem",
-    base: "2rem",
-    lg: "3rem",
-    xl: "4rem",
-    "2xl": "6rem"
+    xs: ".333rem",
+    sm: ".5rem",
+    base: "1rem",
+    lg: "2rem",
+    xl: "3rem",
+    "2xl": "5rem"
   },
 
   negativeMargin: {

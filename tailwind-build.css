@@ -507,12 +507,12 @@ table {
   max-width: 1024px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 p + p {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 h1,
@@ -585,7 +585,7 @@ h6 {
 }
 
 .navigation li > ul {
-  margin-left: 1rem;
+  margin-left: .5rem;
 }
 
 .navigation li {
@@ -594,7 +594,7 @@ h6 {
 }
 
 .navigation li + li {
-  margin-top: .5rem;
+  margin-top: .333rem;
 }
 
 .navigationPanel {
@@ -1617,27 +1617,27 @@ h6 {
 }
 
 .m-xs {
-  margin: .5rem;
+  margin: .333rem;
 }
 
 .m-sm {
-  margin: 1rem;
+  margin: .5rem;
 }
 
 .m-base {
-  margin: 2rem;
+  margin: 1rem;
 }
 
 .m-lg {
-  margin: 3rem;
+  margin: 2rem;
 }
 
 .m-xl {
-  margin: 4rem;
+  margin: 3rem;
 }
 
 .m-2xl {
-  margin: 6rem;
+  margin: 5rem;
 }
 
 .my-0 {
@@ -1651,63 +1651,63 @@ h6 {
 }
 
 .my-xs {
+  margin-top: .333rem;
+  margin-bottom: .333rem;
+}
+
+.mx-xs {
+  margin-left: .333rem;
+  margin-right: .333rem;
+}
+
+.my-sm {
   margin-top: .5rem;
   margin-bottom: .5rem;
 }
 
-.mx-xs {
+.mx-sm {
   margin-left: .5rem;
   margin-right: .5rem;
 }
 
-.my-sm {
+.my-base {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
-.mx-sm {
+.mx-base {
   margin-left: 1rem;
   margin-right: 1rem;
 }
 
-.my-base {
+.my-lg {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
-.mx-base {
+.mx-lg {
   margin-left: 2rem;
   margin-right: 2rem;
 }
 
-.my-lg {
+.my-xl {
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
 
-.mx-lg {
+.mx-xl {
   margin-left: 3rem;
   margin-right: 3rem;
 }
 
-.my-xl {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
-}
-
-.mx-xl {
-  margin-left: 4rem;
-  margin-right: 4rem;
-}
-
 .my-2xl {
-  margin-top: 6rem;
-  margin-bottom: 6rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .mx-2xl {
-  margin-left: 6rem;
-  margin-right: 6rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
 .mt-0 {
@@ -1727,99 +1727,99 @@ h6 {
 }
 
 .mt-xs {
-  margin-top: .5rem;
+  margin-top: .333rem;
 }
 
 .mr-xs {
-  margin-right: .5rem;
+  margin-right: .333rem;
 }
 
 .mb-xs {
-  margin-bottom: .5rem;
+  margin-bottom: .333rem;
 }
 
 .ml-xs {
-  margin-left: .5rem;
+  margin-left: .333rem;
 }
 
 .mt-sm {
-  margin-top: 1rem;
+  margin-top: .5rem;
 }
 
 .mr-sm {
-  margin-right: 1rem;
+  margin-right: .5rem;
 }
 
 .mb-sm {
-  margin-bottom: 1rem;
+  margin-bottom: .5rem;
 }
 
 .ml-sm {
-  margin-left: 1rem;
+  margin-left: .5rem;
 }
 
 .mt-base {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .mr-base {
-  margin-right: 2rem;
+  margin-right: 1rem;
 }
 
 .mb-base {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .ml-base {
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 
 .mt-lg {
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .mr-lg {
-  margin-right: 3rem;
+  margin-right: 2rem;
 }
 
 .mb-lg {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .ml-lg {
-  margin-left: 3rem;
+  margin-left: 2rem;
 }
 
 .mt-xl {
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 
 .mr-xl {
-  margin-right: 4rem;
+  margin-right: 3rem;
 }
 
 .mb-xl {
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 .ml-xl {
-  margin-left: 4rem;
+  margin-left: 3rem;
 }
 
 .mt-2xl {
-  margin-top: 6rem;
+  margin-top: 5rem;
 }
 
 .mr-2xl {
-  margin-right: 6rem;
+  margin-right: 5rem;
 }
 
 .mb-2xl {
-  margin-bottom: 6rem;
+  margin-bottom: 5rem;
 }
 
 .ml-2xl {
-  margin-left: 6rem;
+  margin-left: 5rem;
 }
 
 .max-h-full {
@@ -2429,27 +2429,27 @@ h6 {
 }
 
 .p-xs {
-  padding: .5rem;
+  padding: .333rem;
 }
 
 .p-sm {
-  padding: 1rem;
+  padding: .5rem;
 }
 
 .p-base {
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .p-lg {
-  padding: 3rem;
+  padding: 2rem;
 }
 
 .p-xl {
-  padding: 4rem;
+  padding: 3rem;
 }
 
 .p-2xl {
-  padding: 6rem;
+  padding: 5rem;
 }
 
 .py-0 {
@@ -2463,63 +2463,63 @@ h6 {
 }
 
 .py-xs {
+  padding-top: .333rem;
+  padding-bottom: .333rem;
+}
+
+.px-xs {
+  padding-left: .333rem;
+  padding-right: .333rem;
+}
+
+.py-sm {
   padding-top: .5rem;
   padding-bottom: .5rem;
 }
 
-.px-xs {
+.px-sm {
   padding-left: .5rem;
   padding-right: .5rem;
 }
 
-.py-sm {
+.py-base {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
-.px-sm {
+.px-base {
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
-.py-base {
+.py-lg {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
 
-.px-base {
+.px-lg {
   padding-left: 2rem;
   padding-right: 2rem;
 }
 
-.py-lg {
+.py-xl {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
 
-.px-lg {
+.px-xl {
   padding-left: 3rem;
   padding-right: 3rem;
 }
 
-.py-xl {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
-
-.px-xl {
-  padding-left: 4rem;
-  padding-right: 4rem;
-}
-
 .py-2xl {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .px-2xl {
-  padding-left: 6rem;
-  padding-right: 6rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .pt-0 {
@@ -2539,99 +2539,99 @@ h6 {
 }
 
 .pt-xs {
-  padding-top: .5rem;
+  padding-top: .333rem;
 }
 
 .pr-xs {
-  padding-right: .5rem;
+  padding-right: .333rem;
 }
 
 .pb-xs {
-  padding-bottom: .5rem;
+  padding-bottom: .333rem;
 }
 
 .pl-xs {
-  padding-left: .5rem;
+  padding-left: .333rem;
 }
 
 .pt-sm {
-  padding-top: 1rem;
+  padding-top: .5rem;
 }
 
 .pr-sm {
-  padding-right: 1rem;
+  padding-right: .5rem;
 }
 
 .pb-sm {
-  padding-bottom: 1rem;
+  padding-bottom: .5rem;
 }
 
 .pl-sm {
-  padding-left: 1rem;
+  padding-left: .5rem;
 }
 
 .pt-base {
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 
 .pr-base {
-  padding-right: 2rem;
+  padding-right: 1rem;
 }
 
 .pb-base {
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 .pl-base {
-  padding-left: 2rem;
+  padding-left: 1rem;
 }
 
 .pt-lg {
-  padding-top: 3rem;
+  padding-top: 2rem;
 }
 
 .pr-lg {
-  padding-right: 3rem;
+  padding-right: 2rem;
 }
 
 .pb-lg {
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
 }
 
 .pl-lg {
-  padding-left: 3rem;
+  padding-left: 2rem;
 }
 
 .pt-xl {
-  padding-top: 4rem;
+  padding-top: 3rem;
 }
 
 .pr-xl {
-  padding-right: 4rem;
+  padding-right: 3rem;
 }
 
 .pb-xl {
-  padding-bottom: 4rem;
+  padding-bottom: 3rem;
 }
 
 .pl-xl {
-  padding-left: 4rem;
+  padding-left: 3rem;
 }
 
 .pt-2xl {
-  padding-top: 6rem;
+  padding-top: 5rem;
 }
 
 .pr-2xl {
-  padding-right: 6rem;
+  padding-right: 5rem;
 }
 
 .pb-2xl {
-  padding-bottom: 6rem;
+  padding-bottom: 5rem;
 }
 
 .pl-2xl {
-  padding-left: 6rem;
+  padding-left: 5rem;
 }
 
 .pointer-events-none {
@@ -4320,27 +4320,27 @@ h6 {
   }
 
   .desktop\:m-xs {
-    margin: .5rem;
+    margin: .333rem;
   }
 
   .desktop\:m-sm {
-    margin: 1rem;
+    margin: .5rem;
   }
 
   .desktop\:m-base {
-    margin: 2rem;
+    margin: 1rem;
   }
 
   .desktop\:m-lg {
-    margin: 3rem;
+    margin: 2rem;
   }
 
   .desktop\:m-xl {
-    margin: 4rem;
+    margin: 3rem;
   }
 
   .desktop\:m-2xl {
-    margin: 6rem;
+    margin: 5rem;
   }
 
   .desktop\:my-0 {
@@ -4354,63 +4354,63 @@ h6 {
   }
 
   .desktop\:my-xs {
+    margin-top: .333rem;
+    margin-bottom: .333rem;
+  }
+
+  .desktop\:mx-xs {
+    margin-left: .333rem;
+    margin-right: .333rem;
+  }
+
+  .desktop\:my-sm {
     margin-top: .5rem;
     margin-bottom: .5rem;
   }
 
-  .desktop\:mx-xs {
+  .desktop\:mx-sm {
     margin-left: .5rem;
     margin-right: .5rem;
   }
 
-  .desktop\:my-sm {
+  .desktop\:my-base {
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
 
-  .desktop\:mx-sm {
+  .desktop\:mx-base {
     margin-left: 1rem;
     margin-right: 1rem;
   }
 
-  .desktop\:my-base {
+  .desktop\:my-lg {
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
 
-  .desktop\:mx-base {
+  .desktop\:mx-lg {
     margin-left: 2rem;
     margin-right: 2rem;
   }
 
-  .desktop\:my-lg {
+  .desktop\:my-xl {
     margin-top: 3rem;
     margin-bottom: 3rem;
   }
 
-  .desktop\:mx-lg {
+  .desktop\:mx-xl {
     margin-left: 3rem;
     margin-right: 3rem;
   }
 
-  .desktop\:my-xl {
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-  }
-
-  .desktop\:mx-xl {
-    margin-left: 4rem;
-    margin-right: 4rem;
-  }
-
   .desktop\:my-2xl {
-    margin-top: 6rem;
-    margin-bottom: 6rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
   }
 
   .desktop\:mx-2xl {
-    margin-left: 6rem;
-    margin-right: 6rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
   }
 
   .desktop\:mt-0 {
@@ -4430,99 +4430,99 @@ h6 {
   }
 
   .desktop\:mt-xs {
-    margin-top: .5rem;
+    margin-top: .333rem;
   }
 
   .desktop\:mr-xs {
-    margin-right: .5rem;
+    margin-right: .333rem;
   }
 
   .desktop\:mb-xs {
-    margin-bottom: .5rem;
+    margin-bottom: .333rem;
   }
 
   .desktop\:ml-xs {
-    margin-left: .5rem;
+    margin-left: .333rem;
   }
 
   .desktop\:mt-sm {
-    margin-top: 1rem;
+    margin-top: .5rem;
   }
 
   .desktop\:mr-sm {
-    margin-right: 1rem;
+    margin-right: .5rem;
   }
 
   .desktop\:mb-sm {
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
   }
 
   .desktop\:ml-sm {
-    margin-left: 1rem;
+    margin-left: .5rem;
   }
 
   .desktop\:mt-base {
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
 
   .desktop\:mr-base {
-    margin-right: 2rem;
+    margin-right: 1rem;
   }
 
   .desktop\:mb-base {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 
   .desktop\:ml-base {
-    margin-left: 2rem;
+    margin-left: 1rem;
   }
 
   .desktop\:mt-lg {
-    margin-top: 3rem;
+    margin-top: 2rem;
   }
 
   .desktop\:mr-lg {
-    margin-right: 3rem;
+    margin-right: 2rem;
   }
 
   .desktop\:mb-lg {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 
   .desktop\:ml-lg {
-    margin-left: 3rem;
+    margin-left: 2rem;
   }
 
   .desktop\:mt-xl {
-    margin-top: 4rem;
+    margin-top: 3rem;
   }
 
   .desktop\:mr-xl {
-    margin-right: 4rem;
+    margin-right: 3rem;
   }
 
   .desktop\:mb-xl {
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
   }
 
   .desktop\:ml-xl {
-    margin-left: 4rem;
+    margin-left: 3rem;
   }
 
   .desktop\:mt-2xl {
-    margin-top: 6rem;
+    margin-top: 5rem;
   }
 
   .desktop\:mr-2xl {
-    margin-right: 6rem;
+    margin-right: 5rem;
   }
 
   .desktop\:mb-2xl {
-    margin-bottom: 6rem;
+    margin-bottom: 5rem;
   }
 
   .desktop\:ml-2xl {
-    margin-left: 6rem;
+    margin-left: 5rem;
   }
 
   .desktop\:max-h-full {
@@ -5124,27 +5124,27 @@ h6 {
   }
 
   .desktop\:p-xs {
-    padding: .5rem;
+    padding: .333rem;
   }
 
   .desktop\:p-sm {
-    padding: 1rem;
+    padding: .5rem;
   }
 
   .desktop\:p-base {
-    padding: 2rem;
+    padding: 1rem;
   }
 
   .desktop\:p-lg {
-    padding: 3rem;
+    padding: 2rem;
   }
 
   .desktop\:p-xl {
-    padding: 4rem;
+    padding: 3rem;
   }
 
   .desktop\:p-2xl {
-    padding: 6rem;
+    padding: 5rem;
   }
 
   .desktop\:py-0 {
@@ -5158,63 +5158,63 @@ h6 {
   }
 
   .desktop\:py-xs {
+    padding-top: .333rem;
+    padding-bottom: .333rem;
+  }
+
+  .desktop\:px-xs {
+    padding-left: .333rem;
+    padding-right: .333rem;
+  }
+
+  .desktop\:py-sm {
     padding-top: .5rem;
     padding-bottom: .5rem;
   }
 
-  .desktop\:px-xs {
+  .desktop\:px-sm {
     padding-left: .5rem;
     padding-right: .5rem;
   }
 
-  .desktop\:py-sm {
+  .desktop\:py-base {
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
 
-  .desktop\:px-sm {
+  .desktop\:px-base {
     padding-left: 1rem;
     padding-right: 1rem;
   }
 
-  .desktop\:py-base {
+  .desktop\:py-lg {
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
 
-  .desktop\:px-base {
+  .desktop\:px-lg {
     padding-left: 2rem;
     padding-right: 2rem;
   }
 
-  .desktop\:py-lg {
+  .desktop\:py-xl {
     padding-top: 3rem;
     padding-bottom: 3rem;
   }
 
-  .desktop\:px-lg {
+  .desktop\:px-xl {
     padding-left: 3rem;
     padding-right: 3rem;
   }
 
-  .desktop\:py-xl {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-  }
-
-  .desktop\:px-xl {
-    padding-left: 4rem;
-    padding-right: 4rem;
-  }
-
   .desktop\:py-2xl {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .desktop\:px-2xl {
-    padding-left: 6rem;
-    padding-right: 6rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 
   .desktop\:pt-0 {
@@ -5234,99 +5234,99 @@ h6 {
   }
 
   .desktop\:pt-xs {
-    padding-top: .5rem;
+    padding-top: .333rem;
   }
 
   .desktop\:pr-xs {
-    padding-right: .5rem;
+    padding-right: .333rem;
   }
 
   .desktop\:pb-xs {
-    padding-bottom: .5rem;
+    padding-bottom: .333rem;
   }
 
   .desktop\:pl-xs {
-    padding-left: .5rem;
+    padding-left: .333rem;
   }
 
   .desktop\:pt-sm {
-    padding-top: 1rem;
+    padding-top: .5rem;
   }
 
   .desktop\:pr-sm {
-    padding-right: 1rem;
+    padding-right: .5rem;
   }
 
   .desktop\:pb-sm {
-    padding-bottom: 1rem;
+    padding-bottom: .5rem;
   }
 
   .desktop\:pl-sm {
-    padding-left: 1rem;
+    padding-left: .5rem;
   }
 
   .desktop\:pt-base {
-    padding-top: 2rem;
+    padding-top: 1rem;
   }
 
   .desktop\:pr-base {
-    padding-right: 2rem;
+    padding-right: 1rem;
   }
 
   .desktop\:pb-base {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
   }
 
   .desktop\:pl-base {
-    padding-left: 2rem;
+    padding-left: 1rem;
   }
 
   .desktop\:pt-lg {
-    padding-top: 3rem;
+    padding-top: 2rem;
   }
 
   .desktop\:pr-lg {
-    padding-right: 3rem;
+    padding-right: 2rem;
   }
 
   .desktop\:pb-lg {
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
   }
 
   .desktop\:pl-lg {
-    padding-left: 3rem;
+    padding-left: 2rem;
   }
 
   .desktop\:pt-xl {
-    padding-top: 4rem;
+    padding-top: 3rem;
   }
 
   .desktop\:pr-xl {
-    padding-right: 4rem;
+    padding-right: 3rem;
   }
 
   .desktop\:pb-xl {
-    padding-bottom: 4rem;
+    padding-bottom: 3rem;
   }
 
   .desktop\:pl-xl {
-    padding-left: 4rem;
+    padding-left: 3rem;
   }
 
   .desktop\:pt-2xl {
-    padding-top: 6rem;
+    padding-top: 5rem;
   }
 
   .desktop\:pr-2xl {
-    padding-right: 6rem;
+    padding-right: 5rem;
   }
 
   .desktop\:pb-2xl {
-    padding-bottom: 6rem;
+    padding-bottom: 5rem;
   }
 
   .desktop\:pl-2xl {
-    padding-left: 6rem;
+    padding-left: 5rem;
   }
 
   .desktop\:pointer-events-none {
