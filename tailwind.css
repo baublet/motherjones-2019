@@ -44,3 +44,14 @@
 .alignleft {
   float: left;
 }
+
+.footer a {
+    @apply text-primaryText;
+    @apply opacity-75;
+}
+
+.footer a:hover,
+.footer a:focus,
+.footer a:active {
+    @apply opacity-100;
+}

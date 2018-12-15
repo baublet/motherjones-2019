@@ -3113,6 +3113,17 @@ table {
   float: left;
 }
 
+.footer a {
+  color: rgb(240, 240, 240);
+  opacity: .75;
+}
+
+.footer a:hover,
+.footer a:focus,
+.footer a:active {
+  opacity: 1;
+}
+
 @media (min-width: 940px) {
   .desktop\:list-reset {
     list-style: none;
