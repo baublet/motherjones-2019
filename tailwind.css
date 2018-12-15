@@ -10,6 +10,14 @@
     @apply px-base;
 }
 
+p {
+    max-width: 640px;
+}
+
+p + p {
+    @apply mt-base;
+}
+
 /* Text meant only for screen readers. */
 .screen-reader-text {
   clip: rect(1px, 1px, 1px, 1px);

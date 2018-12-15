@@ -3111,6 +3111,14 @@ table {
   padding-right: 2rem;
 }
 
+p {
+  max-width: 640px;
+}
+
+p + p {
+  margin-top: 2rem;
+}
+
 /* Text meant only for screen readers. */
 
 .screen-reader-text {
