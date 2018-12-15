@@ -597,6 +597,18 @@ h6 {
   margin-top: .5rem;
 }
 
+.navigationPanel {
+  -webkit-columns: 8rem auto;
+          columns: 8rem auto;
+}
+
+@media (min-width: 940px) {
+  .navigationPanel {
+    -webkit-columns: none;
+            columns: none;
+  }
+}
+
 .footer a {
   color: rgb(240, 240, 240);
   text-decoration: none;

@@ -85,6 +85,16 @@ h1, h2, h3, h4, h5 , h6 {
     @apply mt-xs;
 }
 
+.navigationPanel {
+    columns: 8rem auto;
+}
+
+@screen desktop {
+    .navigationPanel {
+        columns: none;
+    }
+}
+
 .footer a {
     @apply text-primaryText;
     @apply no-underline;
