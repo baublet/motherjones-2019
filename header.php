@@ -8,7 +8,7 @@
 
     <?php wp_head(); ?>
 </head>
-<body <?php echo body_class('text-foreground bg-background font-bodyText'); ?>>
+<body <?php echo body_class('text-foreground bg-background font-bodyText leading-normal'); ?>>
     <header id="header" role="banner" class="">
         <div class="contentBlock">
             <div class="logo">
