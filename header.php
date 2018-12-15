@@ -18,7 +18,7 @@
             </div>
             <div class="navigation">
                 <input type="checkbox" id="headerNav" class="toggleCheck hidden" />
-                <label for="headerNav" class="desktop:hidden bg-primary text-primaryText .toggleChecked:bg-foreground .toggleChecked:text-background">
+                <label for="headerNav" class="cursor-pointer block desktop:hidden bg-primary text-primaryText toggleChecked:bg-foreground toggleChecked:text-background">
                     Navigation
                     <i class="fas fa-ellipsis-v"></i>
                 </label>
