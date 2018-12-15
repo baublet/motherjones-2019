@@ -3,9 +3,9 @@
 function enqueueTheThemeScriptsAndStyles()
 {
     // Default theme stylesheet
-    wp_enqueue_style('style', get_stylesheet_directory_uri() . '/reset.css');
-    wp_enqueue_style('style', get_stylesheet_directory_uri() . '/tailwind-build.css');
-    wp_enqueue_style('style', 'https://fonts.googleapis.com/css?family=Aleo:400,400i,700|Playfair+Display|Roboto:400,400i,500');
+    wp_enqueue_style('reset', get_stylesheet_directory_uri() . '/reset.css');
+    wp_enqueue_style('tailwind', get_stylesheet_directory_uri() . '/tailwind-build.css');
+    wp_enqueue_style('font', 'https://fonts.googleapis.com/css?family=Aleo:400,400i,700|Playfair+Display|Roboto:400,400i,500');
 }
 add_action('wp_enqueue_scripts', 'enqueueTheThemeScriptsAndStyles');
 
