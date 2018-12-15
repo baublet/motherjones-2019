@@ -3,11 +3,12 @@ let defaultConfig = require('tailwindcss/defaultConfig')()
 let colors = {
   'transparent': 'transparent',
 
-  'foreground': 'rgba(20, 20, 20, 1)',
+  'foreground': 'rgb(20, 20, 20)',
 
-  'background': 'rgba(240, 240, 240, 1)',
+  'background': 'rgb(240, 240, 240)',
 
-  'primary': '',
+  'primary': 'rgb(98, 111, 162)',
+  'primaryText': 'rgb(240, 240, 240)',
 }
 
 module.exports = {
