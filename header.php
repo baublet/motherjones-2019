@@ -18,8 +18,8 @@
             </div>
             <div class="navigation">
                 <input type="checkbox" id="headerNav" class="toggleCheck hidden" />
-                <label for="headerNav" class="cursor-pointer block desktop:hidden bg-primary text-primaryText toggleChecked:bg-foreground toggleChecked:text-background">
-                    Navigation
+                <label for="headerNav" class="cursor-pointer p-sm block desktop:hidden bg-primary text-primaryText toggleChecked:bg-foreground toggleChecked:text-background flex justify-between items-center">
+                    <span>Navigation</span>
                     <i class="fas fa-ellipsis-v"></i>
                 </label>
                 <div class="hidden toggleChecked:block desktop:block">
