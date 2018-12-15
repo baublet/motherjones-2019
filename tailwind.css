@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5 , h6 {
 }
 
 .navigation a {
-    @apply text-primary no-underline;
+    @apply text-primaryText no-underline;
 }
 
 .navigation a:hover,
