@@ -16,9 +16,12 @@
                     <img src="//placehold.it/300x100" alt="Mother Jones Museum">
                 </a>
             </div>
-            <div class="navigation">
+            <div class="
+            navigation
+            bg-foreground text-background p-xs
+            ">
                 <input type="checkbox" id="headerNav" class="toggleCheck hidden" />
-                <label for="headerNav" class="cursor-pointer p-sm block desktop:hidden bg-primary text-primaryText toggleChecked:bg-foreground toggleChecked:text-background flex justify-between items-center">
+                <label for="headerNav" class="cursor-pointer p-sm block desktop:hidden bg-primary text-primaryText toggleChecked:bg-foreground toggleChecked:text-background flex justify-between items-center hover:bg-primaryDark">
                     <span>Navigation</span>
                     <i class="fas fa-ellipsis-v"></i>
                 </label>

@@ -620,6 +620,10 @@ h6 {
   background-color: rgb(98, 111, 162);
 }
 
+.bg-primaryDark {
+  background-color: rgb(60, 70, 105);
+}
+
 .bg-primaryText {
   background-color: rgb(240, 240, 240);
 }
@@ -642,6 +646,10 @@ h6 {
 
 .hover\:bg-primary:hover {
   background-color: rgb(98, 111, 162);
+}
+
+.hover\:bg-primaryDark:hover {
+  background-color: rgb(60, 70, 105);
 }
 
 .hover\:bg-primaryText:hover {
@@ -668,6 +676,10 @@ h6 {
   background-color: rgb(98, 111, 162);
 }
 
+.focus\:bg-primaryDark:focus {
+  background-color: rgb(60, 70, 105);
+}
+
 .focus\:bg-primaryText:focus {
   background-color: rgb(240, 240, 240);
 }
@@ -690,6 +702,10 @@ h6 {
 
 .toggleCheck:checked ~ .toggleChecked\:bg-primary {
   background-color: rgb(98, 111, 162);
+}
+
+.toggleCheck:checked ~ .toggleChecked\:bg-primaryDark {
+  background-color: rgb(60, 70, 105);
 }
 
 .toggleCheck:checked ~ .toggleChecked\:bg-primaryText {
@@ -788,6 +804,10 @@ h6 {
   border-color: rgb(98, 111, 162);
 }
 
+.border-primaryDark {
+  border-color: rgb(60, 70, 105);
+}
+
 .border-primaryText {
   border-color: rgb(240, 240, 240);
 }
@@ -812,6 +832,10 @@ h6 {
   border-color: rgb(98, 111, 162);
 }
 
+.hover\:border-primaryDark:hover {
+  border-color: rgb(60, 70, 105);
+}
+
 .hover\:border-primaryText:hover {
   border-color: rgb(240, 240, 240);
 }
@@ -834,6 +858,10 @@ h6 {
 
 .focus\:border-primary:focus {
   border-color: rgb(98, 111, 162);
+}
+
+.focus\:border-primaryDark:focus {
+  border-color: rgb(60, 70, 105);
 }
 
 .focus\:border-primaryText:focus {
@@ -2769,6 +2797,10 @@ h6 {
   color: rgb(98, 111, 162);
 }
 
+.text-primaryDark {
+  color: rgb(60, 70, 105);
+}
+
 .text-primaryText {
   color: rgb(240, 240, 240);
 }
@@ -2791,6 +2823,10 @@ h6 {
 
 .hover\:text-primary:hover {
   color: rgb(98, 111, 162);
+}
+
+.hover\:text-primaryDark:hover {
+  color: rgb(60, 70, 105);
 }
 
 .hover\:text-primaryText:hover {
@@ -2817,6 +2853,10 @@ h6 {
   color: rgb(98, 111, 162);
 }
 
+.focus\:text-primaryDark:focus {
+  color: rgb(60, 70, 105);
+}
+
 .focus\:text-primaryText:focus {
   color: rgb(240, 240, 240);
 }
@@ -2839,6 +2879,10 @@ h6 {
 
 .toggleCheck:checked ~ .toggleChecked\:text-primary {
   color: rgb(98, 111, 162);
+}
+
+.toggleCheck:checked ~ .toggleChecked\:text-primaryDark {
+  color: rgb(60, 70, 105);
 }
 
 .toggleCheck:checked ~ .toggleChecked\:text-primaryText {
@@ -3287,6 +3331,10 @@ h6 {
     background-color: rgb(98, 111, 162);
   }
 
+  .desktop\:bg-primaryDark {
+    background-color: rgb(60, 70, 105);
+  }
+
   .desktop\:bg-primaryText {
     background-color: rgb(240, 240, 240);
   }
@@ -3309,6 +3357,10 @@ h6 {
 
   .desktop\:hover\:bg-primary:hover {
     background-color: rgb(98, 111, 162);
+  }
+
+  .desktop\:hover\:bg-primaryDark:hover {
+    background-color: rgb(60, 70, 105);
   }
 
   .desktop\:hover\:bg-primaryText:hover {
@@ -3335,6 +3387,10 @@ h6 {
     background-color: rgb(98, 111, 162);
   }
 
+  .desktop\:focus\:bg-primaryDark:focus {
+    background-color: rgb(60, 70, 105);
+  }
+
   .desktop\:focus\:bg-primaryText:focus {
     background-color: rgb(240, 240, 240);
   }
@@ -3357,6 +3413,10 @@ h6 {
 
   .toggleCheck:checked ~ .desktop\:toggleChecked\:bg-primary {
     background-color: rgb(98, 111, 162);
+  }
+
+  .toggleCheck:checked ~ .desktop\:toggleChecked\:bg-primaryDark {
+    background-color: rgb(60, 70, 105);
   }
 
   .toggleCheck:checked ~ .desktop\:toggleChecked\:bg-primaryText {
@@ -3447,6 +3507,10 @@ h6 {
     border-color: rgb(98, 111, 162);
   }
 
+  .desktop\:border-primaryDark {
+    border-color: rgb(60, 70, 105);
+  }
+
   .desktop\:border-primaryText {
     border-color: rgb(240, 240, 240);
   }
@@ -3471,6 +3535,10 @@ h6 {
     border-color: rgb(98, 111, 162);
   }
 
+  .desktop\:hover\:border-primaryDark:hover {
+    border-color: rgb(60, 70, 105);
+  }
+
   .desktop\:hover\:border-primaryText:hover {
     border-color: rgb(240, 240, 240);
   }
@@ -3493,6 +3561,10 @@ h6 {
 
   .desktop\:focus\:border-primary:focus {
     border-color: rgb(98, 111, 162);
+  }
+
+  .desktop\:focus\:border-primaryDark:focus {
+    border-color: rgb(60, 70, 105);
   }
 
   .desktop\:focus\:border-primaryText:focus {
@@ -5412,6 +5484,10 @@ h6 {
     color: rgb(98, 111, 162);
   }
 
+  .desktop\:text-primaryDark {
+    color: rgb(60, 70, 105);
+  }
+
   .desktop\:text-primaryText {
     color: rgb(240, 240, 240);
   }
@@ -5434,6 +5510,10 @@ h6 {
 
   .desktop\:hover\:text-primary:hover {
     color: rgb(98, 111, 162);
+  }
+
+  .desktop\:hover\:text-primaryDark:hover {
+    color: rgb(60, 70, 105);
   }
 
   .desktop\:hover\:text-primaryText:hover {
@@ -5460,6 +5540,10 @@ h6 {
     color: rgb(98, 111, 162);
   }
 
+  .desktop\:focus\:text-primaryDark:focus {
+    color: rgb(60, 70, 105);
+  }
+
   .desktop\:focus\:text-primaryText:focus {
     color: rgb(240, 240, 240);
   }
@@ -5482,6 +5566,10 @@ h6 {
 
   .toggleCheck:checked ~ .desktop\:toggleChecked\:text-primary {
     color: rgb(98, 111, 162);
+  }
+
+  .toggleCheck:checked ~ .desktop\:toggleChecked\:text-primaryDark {
+    color: rgb(60, 70, 105);
   }
 
   .toggleCheck:checked ~ .desktop\:toggleChecked\:text-primaryText {

@@ -9,6 +9,7 @@ let colors = {
   backgroundSlight: "rgb(240, 240, 240, .1)",
 
   primary: "rgb(98, 111, 162)",
+  primaryDark: 'rgb(60, 70, 105)',
   primaryText: "rgb(240, 240, 240)"
 };
 
