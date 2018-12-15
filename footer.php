@@ -15,8 +15,8 @@
             </p>
             <p class="text-center mt-base">
                 <a href="https://www.facebook.com/MotherJonesLives">
-                Facebook
-                <i class="fab fa-facebook"></i>
+                    <i class="fab fa-facebook"></i>
+                    Facebook
                 </a>
                 <a href="https://twitter.com/MotherJonesLive" class="ml-base">
                     <i class="fab fa-twitter-square"></i>
