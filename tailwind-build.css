@@ -563,6 +563,21 @@ h6 {
   float: left;
 }
 
+.navigation {
+  background-color: rgb(98, 111, 162);
+  color: rgb(98, 111, 162);
+}
+
+.navigation a {
+  color: rgb(98, 111, 162);
+  text-decoration: none;
+}
+
+.navigation a:hover,
+.navigation a:focus {
+  text-decoration: underline;
+}
+
 .footer a {
   color: rgb(240, 240, 240);
   text-decoration: none;

@@ -53,6 +53,19 @@ h1, h2, h3, h4, h5 , h6 {
   float: left;
 }
 
+.navigation {
+    @apply bg-primary text-primary;
+}
+
+.navigation a {
+    @apply text-primary no-underline;
+}
+
+.navigation a:hover,
+.navigation a:focus {
+    @apply underline;
+}
+
 .footer a {
     @apply text-primaryText;
     @apply no-underline;
