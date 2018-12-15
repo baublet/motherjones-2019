@@ -22,7 +22,7 @@
                     Navigation
                     <i class="fas fa-ellipsis-v"></i>
                 </label>
-                <div class="hidden toggleCheck:block desktop:block">
+                <div class="hidden toggleChecked:block desktop:block">
                     <?php wp_nav_menu([
                         'menu' => 'main_menu'
                     ]); ?>

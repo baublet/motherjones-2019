@@ -335,7 +335,7 @@ module.exports = {
       addVariant('toggleChecked', ({ container, separator }) => {
         container.walkRules(rule => {
           const className = rule.selector.slice(1)
-          rule.selector = `.toggleCheck${separator}checked ~ .toggleChecked:${className}`
+          rule.selector = `.toggleCheck${separator}checked ~ .toggleChecked\:${className}`
         })
       })
     }
