@@ -578,6 +578,16 @@ h6 {
   text-decoration: underline;
 }
 
+.navigation ul {
+  padding: 0;
+  margin: 0;
+}
+
+.navigation li {
+  padding: 0;
+  margin: 0;
+}
+
 .navigation li + li {
   margin-top: .5rem;
 }
