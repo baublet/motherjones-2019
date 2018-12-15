@@ -10,12 +10,12 @@
     @apply px-base;
 }
 
-p {
-    max-width: 640px;
-}
-
 p + p {
     @apply mt-base;
+}
+
+h1, h2, h3, h4, h5 , h6 {
+    @apply font-headingText;
 }
 
 /* Text meant only for screen readers. */

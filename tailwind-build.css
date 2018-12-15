@@ -3111,12 +3111,17 @@ table {
   padding-right: 2rem;
 }
 
-p {
-  max-width: 640px;
-}
-
 p + p {
   margin-top: 2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Playfair Display, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
 }
 
 /* Text meant only for screen readers. */
