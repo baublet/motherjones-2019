@@ -8,7 +8,8 @@
 
     <?php wp_head(); ?>
 </head>
-<body <?php echo body_class(); ?>>
-    <header id="header" role="banner">
+<body <?php echo body_class('text-foreground bg-background'); ?>>
+    <header id="header" role="banner" class="">
+
     </header>
     <section id="content" role="main">
