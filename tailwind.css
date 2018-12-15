@@ -66,6 +66,10 @@ h1, h2, h3, h4, h5 , h6 {
     @apply underline;
 }
 
+.navigation li + li {
+    @apply mt-xs;
+}
+
 .footer a {
     @apply text-primaryText;
     @apply no-underline;

@@ -578,6 +578,10 @@ h6 {
   text-decoration: underline;
 }
 
+.navigation li + li {
+  margin-top: .5rem;
+}
+
 .footer a {
   color: rgb(240, 240, 240);
   text-decoration: none;
