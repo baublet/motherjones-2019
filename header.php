@@ -10,13 +10,15 @@
 </head>
 <body <?php echo body_class('text-foreground bg-background font-bodyText'); ?>>
     <header id="header" role="banner" class="">
-        <div class="logo">
-            <a href="/">
-                <img src="//placehold.it/300x100" alt="Mother Jones Museum">
-            </a>
-        </div>
-        <div class="navigation">
+        <div class="contentBlock">
+            <div class="logo">
+                <a href="/">
+                    <img src="//placehold.it/300x100" alt="Mother Jones Museum">
+                </a>
+            </div>
+            <div class="navigation">
 
+            </div>
         </div>
     </header>
     <section id="content" role="main">

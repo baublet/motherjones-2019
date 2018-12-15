@@ -3,7 +3,6 @@
     <?php if (have_posts()): ?>
         <?php the_post(); ?>
         <article <?php post_class('entry'); ?> id="page-<?php the_ID(); ?>" role="page">
-            <h1 class="page-title"><?php the_title(); ?></h1>
             <section class="entry-content">
                 <?php the_content(); ?>
             </section>
