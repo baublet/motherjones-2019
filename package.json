@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "./node_modules/.bin/tailwind build tailwind.css -o tailwind-build.css"
+    "build": "./node_modules/.bin/tailwind build tailwind.css -o tailwind-build.css -c ./tailwind.js"
   },
   "author": "",
   "license": "ISC",
