@@ -4,7 +4,7 @@
     if (have_posts()) {
         the_post();
         // Load default block template page
-        get_template_part('blocks/page/page');
+        get_template_part('blocks/page/page', 'default');
     }
     ?>
 </section>
