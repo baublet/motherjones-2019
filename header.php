@@ -11,12 +11,12 @@
 <body <?php echo body_class('text-foreground bg-background font-bodyText leading-normal'); ?>>
     <header id="header" role="banner">
         <div class="contentBlock">
-            <div class="logo">
-                <a href="/">
-                    <picture class="w-full h-auto" alt="Mother Jones Museum">
+            <div class="logo leading-none">
+                <a href="/" class="block">
+                    <picture class="block" alt="Mother Jones Museum">
                         <source srcset="<?= get_template_directory_uri() ?>/images/header-retina.jpg"
                             media="(min-width: 1040px)">
-                        <img src="<?= get_template_directory_uri() ?>/images/header.jpg">
+                        <img src="<?= get_template_directory_uri() ?>/images/header.jpg" class="w-full h-auto">
                     </picture>
                 </a>
             </div>
