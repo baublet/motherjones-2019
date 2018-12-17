@@ -3,10 +3,10 @@ let defaultConfig = require("tailwindcss/defaultConfig")();
 let colors = {
   transparent: "transparent",
 
-  foreground: "rgb(20, 20, 20)",
+  foreground: "rgb(25, 25, 25)",
 
-  background: "rgb(240, 240, 240)",
-  backgroundSlight: "rgb(240, 240, 240, .1)",
+  background: "rgb(250, 250, 250)",
+  backgroundSlight: "rgb(250, 250, 250, .1)",
 
   primary: "rgb(98, 111, 162)",
   primaryDark: 'rgb(60, 70, 105)',
