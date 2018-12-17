@@ -586,6 +586,7 @@ h6 {
 
 .navigation li > ul {
   margin-left: 1rem;
+  margin-top: .5rem;
 }
 
 .navigation li {
