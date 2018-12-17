@@ -13,7 +13,7 @@
         <div class="contentBlock">
             <div class="logo">
                 <a href="/">
-                    <img src="<?= get_template_directory_uri() ?>/images/header.png" alt="Mother Jones Museum" class="w-full h-auto">
+                    <img src="<?= get_template_directory_uri() ?>/images/header.jpg" alt="Mother Jones Museum" class="w-full h-auto">
                 </a>
             </div>
             <div class="navigation">
