@@ -9,7 +9,7 @@
     <?php wp_head(); ?>
 </head>
 <body <?php echo body_class('text-foreground bg-background font-bodyText leading-normal'); ?>>
-    <header id="header" role="banner" class="">
+    <header id="header" role="banner">
         <div class="contentBlock">
             <div class="logo">
                 <a href="/">
@@ -20,7 +20,7 @@
                     </picture>
                 </a>
             </div>
-            <div class="navigation">
+            <div class="navigation mt-base">
                 <input type="checkbox" id="headerNav" class="toggleCheck hidden" />
                 <label for="headerNav" class="cursor-pointer p-sm block desktop:hidden bg-primary text-primaryText toggleChecked:bg-foreground toggleChecked:text-background flex justify-between items-center hover:bg-primaryDark">
                     <span>Navigation</span>
@@ -34,4 +34,4 @@
             </div>
         </div>
     </header>
-    <section id="content" role="main">
+    <section id="content" role="main" class="mt-base">
