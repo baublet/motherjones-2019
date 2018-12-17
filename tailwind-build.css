@@ -525,6 +525,10 @@ h6 {
   line-height: 1.25;
 }
 
+img {
+  display: block;
+}
+
 /* Text meant only for screen readers. */
 
 .screen-reader-text {

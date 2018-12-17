@@ -2,20 +2,29 @@
 @tailwind components;
 
 .contentBlock {
-    width: 100%;
-    max-width: 1024px;
-    margin-left: auto;
-    margin-right: auto;
-    @apply px-base;
+  width: 100%;
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  @apply px-base;
 }
 
 p + p {
-    @apply mt-base;
+  @apply mt-base;
 }
 
-h1, h2, h3, h4, h5 , h6 {
-    @apply font-headingText;
-    @apply leading-tight;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-headingText;
+  @apply leading-tight;
+}
+
+img {
+  display: block;
 }
 
 /* Text meant only for screen readers. */
@@ -54,60 +63,60 @@ h1, h2, h3, h4, h5 , h6 {
 }
 
 .navigation {
-    @apply bg-primary text-primary;
+  @apply bg-primary text-primary;
 }
 
 .navigation a {
-    @apply text-primaryText no-underline;
+  @apply text-primaryText no-underline;
 }
 
 .navigation a:hover,
 .navigation a:focus {
-    @apply underline;
+  @apply underline;
 }
 
 .navigation ul {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
 }
 
 .navigation li > ul {
-    @apply ml-base mt-sm;
+  @apply ml-base mt-sm;
 }
 
 .navigation li {
-    padding: 0;
-    margin: 0;
-    @apply leading-none;
+  padding: 0;
+  margin: 0;
+  @apply leading-none;
 }
 
 .navigation li + li {
-    @apply mt-sm;
+  @apply mt-sm;
 }
 
 .navigationPanel {
-    columns: 8rem auto;
+  columns: 8rem auto;
 }
 
 @screen desktop {
-    .navigationPanel {
-        columns: none;
-    }
+  .navigationPanel {
+    columns: none;
+  }
 }
 
 .footer a {
-    @apply text-primaryText;
-    @apply no-underline;
-    @apply border-b;
-    @apply border-solid;
-    @apply border-backgroundSlight;
+  @apply text-primaryText;
+  @apply no-underline;
+  @apply border-b;
+  @apply border-solid;
+  @apply border-backgroundSlight;
 }
 
 .footer a:hover,
 .footer a:focus,
 .footer a:active {
-    @apply border-background;
+  @apply border-background;
 }
 
 @tailwind utilities;
