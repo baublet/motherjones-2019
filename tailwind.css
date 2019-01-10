@@ -126,7 +126,7 @@ img {
   }
   .menu-header-menu-container a:hover,
   .menu-header-menu-container a:focus {
-    @apply bg-backgroundSlight;
+    @apply bg-backgroundSlight no-underline;
   }
   .menu-header-menu-container > ul {
     display: flex;

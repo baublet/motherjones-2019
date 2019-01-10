@@ -4,6 +4,7 @@ let colors = {
   transparent: "transparent",
 
   foreground: "rgb(25, 25, 25)",
+  foregroundSlight: "rgba(25, 25, 25, .1)",
 
   background: "rgb(250, 250, 250)",
   backgroundSlight: "rgb(250, 250, 250, .1)",
