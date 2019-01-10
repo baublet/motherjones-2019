@@ -68,7 +68,7 @@ img {
 
 @screen desktop {
   .navigation {
-    @apply bg-transparent text-foreground;
+    @apply bg-transparent text-foreground py-sm;
   }
 }
 
