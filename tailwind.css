@@ -66,6 +66,12 @@ img {
   @apply bg-primary text-primary;
 }
 
+@screen desktop {
+  .navigation {
+    @apply bg-transparent text-foreground;
+  }
+}
+
 .navigation a {
   @apply text-primaryText no-underline;
 }

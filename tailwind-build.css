@@ -572,6 +572,13 @@ img {
   color: rgb(98, 111, 162);
 }
 
+@media (min-width: 940px) {
+  .navigation {
+    background-color: transparent;
+    color: rgb(25, 25, 25);
+  }
+}
+
 .navigation a {
   color: rgb(240, 240, 240);
   text-decoration: none;
