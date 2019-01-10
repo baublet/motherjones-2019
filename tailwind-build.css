@@ -584,6 +584,12 @@ img {
   text-decoration: none;
 }
 
+@media (min-width: 940px) {
+  .navigation a {
+    color: rgb(25, 25, 25);
+  }
+}
+
 .navigation a:hover,
 .navigation a:focus {
   text-decoration: underline;
