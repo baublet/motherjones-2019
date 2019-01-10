@@ -144,11 +144,14 @@ img {
     top: 90%;
     left: 0;
     min-width: 300px;
-    @apply bg-background shadow-lg p-base;
+    @apply bg-background shadow-lg p-base m-0;
   }
   .menu-header-menu-container > ul > .menu-item-has-children:hover > .sub-menu {
     pointer-events: all;
     opacity: 1;
+  }
+  .menu-header-menu-container > ul > .menu-item-has-children:hover > .sub-menu a {
+    @apply p-sm;
   }
 }
 
