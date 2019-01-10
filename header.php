@@ -34,4 +34,4 @@
             </div>
         </div>
     </header>
-    <section id="content" role="main">
+    <section id="content" role="main" class="mt-lg">
