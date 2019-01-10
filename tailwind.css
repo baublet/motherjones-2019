@@ -122,7 +122,7 @@ img {
     columns: auto;
   }
   .menu-header-menu-container a {
-    @apply block;
+    @apply block p-sm;
   }
   .menu-header-menu-container a:hover,
   .menu-header-menu-container a:focus {
@@ -149,9 +149,6 @@ img {
   .menu-header-menu-container > ul > .menu-item-has-children:hover > .sub-menu {
     pointer-events: all;
     opacity: 1;
-  }
-  .menu-header-menu-container > ul > .menu-item-has-children:hover > .sub-menu a {
-    @apply p-sm;
   }
 }
 

@@ -637,6 +637,7 @@ img {
 
   .menu-header-menu-container a {
     display: block;
+    padding: .5rem;
   }
 
   .menu-header-menu-container a:hover,
@@ -673,10 +674,6 @@ img {
   .menu-header-menu-container > ul > .menu-item-has-children:hover > .sub-menu {
     pointer-events: all;
     opacity: 1;
-  }
-
-  .menu-header-menu-container > ul > .menu-item-has-children:hover > .sub-menu a {
-    padding: .5rem;
   }
 }
 
