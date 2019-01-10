@@ -141,7 +141,9 @@ img {
     pointer-events: none;
     opacity: 0;
     position: absolute;
-    top: 100%;
+    top: 90%;
+    left: 0;
+    min-width: 300px;
     @apply bg-background shadow-lg p-base;
   }
   .menu-header-menu-container > ul > .menu-item-has-children:hover > .sub-menu {
