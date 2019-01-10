@@ -107,6 +107,12 @@ img {
   @apply mt-sm;
 }
 
+@screen desktop {
+  .navigation li + li {
+    @apply mt-0;
+  }
+}
+
 .navigationPanel {
   columns: 8rem auto;
 }
