@@ -121,6 +121,13 @@ img {
   .navigationPanel {
     columns: auto;
   }
+  .menu-header-menu-container a {
+    @apply block;
+  }
+  .menu-header-menu-container a:hover,
+  .menu-header-menu-container a:focus {
+    @apply bg-backgroundSlight;
+  }
   .menu-header-menu-container > ul {
     display: flex;
   }
@@ -135,7 +142,7 @@ img {
     opacity: 0;
     position: absolute;
     top: 100%;
-    @apply bg-background;;
+    @apply bg-background shadow-lg p-base;
   }
   .menu-header-menu-container > ul > .menu-item-has-children:hover > .sub-menu {
     pointer-events: all;

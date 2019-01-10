@@ -635,6 +635,15 @@ img {
             columns: auto;
   }
 
+  .menu-header-menu-container a {
+    display: block;
+  }
+
+  .menu-header-menu-container a:hover,
+  .menu-header-menu-container a:focus {
+    background-color: rgb(250, 250, 250, .1);
+  }
+
   .menu-header-menu-container > ul {
     display: flex;
   }
@@ -653,6 +662,8 @@ img {
     position: absolute;
     top: 100%;
     background-color: rgb(250, 250, 250);
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, .11), 0 5px 15px 0 rgba(0, 0, 0, .08);
+    padding: 1rem;
   }
 
   .menu-header-menu-container > ul > .menu-item-has-children:hover > .sub-menu {
