@@ -121,17 +121,17 @@ img {
   .menu-header-menu-container > ul > li + li {
     @apply ml-base;
   }
-  .menu-header-menu-container > ul .menu-item-has-children {
+  .menu-header-menu-container > ul > .menu-item-has-children {
     position: relative;
   }
-  .menu-header-menu-container > ul .menu-item-has-children > .sub-menu {
+  .menu-header-menu-container > ul > .menu-item-has-children > .sub-menu {
     pointer-events: none;
     opacity: 0;
     position: absolute;
     top: 100%;
-    background: $bg-background;
+    @apply bg-background;;
   }
-  .menu-header-menu-container > ul .menu-item-has-children:hover > .sub-menu {
+  .menu-header-menu-container > ul > .menu-item-has-children:hover > .sub-menu {
     pointer-events: all;
     opacity: 1;
   }
