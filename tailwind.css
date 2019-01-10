@@ -121,6 +121,14 @@ img {
   .menu-header-menu-container > ul > li + li {
     @apply ml-base;
   }
+  .menu-header-menu-container > ul .menu-item-has-children .sub-menu {
+    pointer-events: none;
+    opacity: 0;
+  }
+  .menu-header-menu-container > ul .menu-item-has-children:hover .sub-menu {
+    pointer-events: all;
+    opacity: 1;
+  }
 }
 
 .footer a {
