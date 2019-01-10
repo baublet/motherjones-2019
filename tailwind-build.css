@@ -641,7 +641,7 @@ img {
 
   .menu-header-menu-container a:hover,
   .menu-header-menu-container a:focus {
-    background-color: rgb(250, 250, 250, .1);
+    background-color: rgba(25, 25, 25, .1);
     text-decoration: none;
   }
 
