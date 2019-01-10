@@ -113,7 +113,13 @@ img {
 
 @screen desktop {
   .navigationPanel {
-    columns: none;
+    columns: auto;
+  }
+  .menu-header-menu-container > ul {
+    display: flex;
+  }
+  .menu-header-menu-container > ul > li + li {
+    @apply ml-base;
   }
 }
 
