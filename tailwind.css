@@ -76,6 +76,12 @@ img {
   @apply text-primaryText no-underline;
 }
 
+@screen desktop {
+  .navigation a {
+    @apply text-foreground;
+  }
+}
+
 .navigation a:hover,
 .navigation a:focus {
   @apply underline;
