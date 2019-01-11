@@ -99,7 +99,7 @@ img {
 }
 
 .navigation a {
-  @apply text-primaryText no-underline p-sm;
+  @apply text-primaryText no-underline p-sm inline-block;
 }
 
 @screen desktop {

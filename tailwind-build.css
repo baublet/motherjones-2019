@@ -633,6 +633,7 @@ img {
   color: rgb(240, 240, 240);
   text-decoration: none;
   padding: .5rem;
+  display: inline-block;
 }
 
 @media (min-width: 940px) {
