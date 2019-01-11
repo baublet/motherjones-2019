@@ -40,7 +40,7 @@
                         options: {
                             "product": {
                                 "variantId": "all",
-                                "width": "380px",
+                                "width": "100%",
                                 "text": {
                                     "button": "Add to Cart"
                                 },
@@ -51,15 +51,15 @@
                                     "buttonWithQuantity": false,
                                     "quantity": false
                                 },
-                                "styles": {
-                                    "product": {
-                                        "@media (min-width: 601px)": {
-                                            "max-width": "none",
-                                            "margin-left": "20px",
-                                            "margin-bottom": "50px"
-                                        }
-                                    }
-                                }
+                                // "styles": {
+                                //     "product": {
+                                //         "@media (min-width: 601px)": {
+                                //             "max-width": "calc(25% - 20px)",
+                                //             "margin-left": "20px",
+                                //             "margin-bottom": "50px"
+                                //         }
+                                //     }
+                                // }
                             },
                             "cart": {
                                 "contents": {
