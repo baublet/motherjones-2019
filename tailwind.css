@@ -71,9 +71,14 @@ img {
   @apply bg-foreground text-background;
 }
 
+.buttonSecondary {
+  @apply bg-secondary text-secondaryText p-sm font-bold rounded;
+}
 
-
-
+.buttonSecondary:hover,
+.buttonSecondary:focus {
+  @apply bg-foreground text-background;
+}
 
 
 .navigation {

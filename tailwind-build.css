@@ -581,6 +581,20 @@ img {
   color: rgb(250, 250, 250);
 }
 
+.buttonSecondary {
+  background-color: rgb(255, 180, 0);
+  color: rgb(250, 250, 250);
+  padding: .5rem;
+  font-weight: 700;
+  border-radius: .25rem;
+}
+
+.buttonSecondary:hover,
+.buttonSecondary:focus {
+  background-color: rgb(25, 25, 25);
+  color: rgb(250, 250, 250);
+}
+
 .navigation {
   background-color: rgb(98, 111, 162);
   color: rgb(98, 111, 162);
