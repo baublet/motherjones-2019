@@ -622,6 +622,10 @@ img {
   .navigation {
     background-color: transparent;
     color: rgb(25, 25, 25);
+    border-color: rgba(25, 25, 25, .1);
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
   }
 }
 
@@ -674,13 +678,6 @@ img {
 }
 
 @media (min-width: 940px) {
-  .navigationStripe {
-    border-color: rgba(25, 25, 25, .1);
-    border-style: solid;
-    border-bottom-width: 1px;
-    border-top-width: 1px;
-  }
-
   .navigationPanel {
     -webkit-columns: auto;
             columns: auto;

@@ -94,7 +94,7 @@ img {
 
 @screen desktop {
   .navigation {
-    @apply bg-transparent text-foreground;
+    @apply bg-transparent text-foreground border-foregroundSlight border-solid border-b border-t;
   }
 }
 
@@ -144,9 +144,6 @@ img {
 }
 
 @screen desktop {
-  .navigationStripe {
-    @apply border-foregroundSlight border-solid border-b border-t;
-  }
   .navigationPanel {
     columns: auto;
   }
