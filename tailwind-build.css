@@ -674,8 +674,8 @@ img {
 }
 
 .navigationPanel {
-  -webkit-columns: 10rem auto;
-          columns: 10rem auto;
+  -webkit-columns: 12rem auto;
+          columns: 12rem auto;
 }
 
 @media (min-width: 940px) {

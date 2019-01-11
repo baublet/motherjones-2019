@@ -140,7 +140,7 @@ img {
 }
 
 .navigationPanel {
-  columns: 10rem auto;
+  columns: 12rem auto;
 }
 
 @screen desktop {
