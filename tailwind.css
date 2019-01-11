@@ -94,7 +94,7 @@ img {
 
 @screen desktop {
   .navigation {
-    @apply bg-transparent text-foreground py-base;
+    @apply bg-transparent text-foreground;
   }
 }
 
