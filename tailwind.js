@@ -13,7 +13,7 @@ let colors = {
   primaryDark: 'rgb(60, 70, 105)',
   primaryText: "rgb(240, 240, 240)",
 
-  secondary: "rgb(255, 180, 0)",
+  secondary: "rgb(245, 120, 0)",
   secondaryText: "rgb(250, 250, 250)",
 };
 

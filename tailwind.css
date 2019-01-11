@@ -67,7 +67,7 @@ img {
 }
 
 .buttonPrimary {
-  @apply bg-primary text-primaryText p-sm font-bold rounded text-base no-underline;
+  @apply bg-primary text-primaryText p-sm font-bold rounded text-base no-underline block;
 }
 
 .buttonPrimary:hover,
@@ -76,7 +76,7 @@ img {
 }
 
 .buttonSecondary {
-  @apply bg-secondary text-secondaryText p-sm font-bold rounded text-base no-underline;
+  @apply bg-secondary text-secondaryText p-sm font-bold rounded text-base no-underline block;
 }
 
 .buttonSecondary:hover,

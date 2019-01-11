@@ -580,6 +580,7 @@ img {
   border-radius: .25rem;
   font-size: 1rem;
   text-decoration: none;
+  display: block;
 }
 
 .buttonPrimary:hover,
@@ -589,13 +590,14 @@ img {
 }
 
 .buttonSecondary {
-  background-color: rgb(255, 180, 0);
+  background-color: rgb(245, 120, 0);
   color: rgb(250, 250, 250);
   padding: .5rem;
   font-weight: 700;
   border-radius: .25rem;
   font-size: 1rem;
   text-decoration: none;
+  display: block;
 }
 
 .buttonSecondary:hover,
@@ -785,7 +787,7 @@ img {
 }
 
 .bg-secondary {
-  background-color: rgb(255, 180, 0);
+  background-color: rgb(245, 120, 0);
 }
 
 .bg-secondaryText {
@@ -825,7 +827,7 @@ img {
 }
 
 .hover\:bg-secondary:hover {
-  background-color: rgb(255, 180, 0);
+  background-color: rgb(245, 120, 0);
 }
 
 .hover\:bg-secondaryText:hover {
@@ -865,7 +867,7 @@ img {
 }
 
 .focus\:bg-secondary:focus {
-  background-color: rgb(255, 180, 0);
+  background-color: rgb(245, 120, 0);
 }
 
 .focus\:bg-secondaryText:focus {
@@ -905,7 +907,7 @@ img {
 }
 
 .toggleCheck:checked ~ .toggleChecked\:bg-secondary {
-  background-color: rgb(255, 180, 0);
+  background-color: rgb(245, 120, 0);
 }
 
 .toggleCheck:checked ~ .toggleChecked\:bg-secondaryText {
@@ -1017,7 +1019,7 @@ img {
 }
 
 .border-secondary {
-  border-color: rgb(255, 180, 0);
+  border-color: rgb(245, 120, 0);
 }
 
 .border-secondaryText {
@@ -1057,7 +1059,7 @@ img {
 }
 
 .hover\:border-secondary:hover {
-  border-color: rgb(255, 180, 0);
+  border-color: rgb(245, 120, 0);
 }
 
 .hover\:border-secondaryText:hover {
@@ -1097,7 +1099,7 @@ img {
 }
 
 .focus\:border-secondary:focus {
-  border-color: rgb(255, 180, 0);
+  border-color: rgb(245, 120, 0);
 }
 
 .focus\:border-secondaryText:focus {
@@ -3046,7 +3048,7 @@ img {
 }
 
 .text-secondary {
-  color: rgb(255, 180, 0);
+  color: rgb(245, 120, 0);
 }
 
 .text-secondaryText {
@@ -3086,7 +3088,7 @@ img {
 }
 
 .hover\:text-secondary:hover {
-  color: rgb(255, 180, 0);
+  color: rgb(245, 120, 0);
 }
 
 .hover\:text-secondaryText:hover {
@@ -3126,7 +3128,7 @@ img {
 }
 
 .focus\:text-secondary:focus {
-  color: rgb(255, 180, 0);
+  color: rgb(245, 120, 0);
 }
 
 .focus\:text-secondaryText:focus {
@@ -3166,7 +3168,7 @@ img {
 }
 
 .toggleCheck:checked ~ .toggleChecked\:text-secondary {
-  color: rgb(255, 180, 0);
+  color: rgb(245, 120, 0);
 }
 
 .toggleCheck:checked ~ .toggleChecked\:text-secondaryText {
@@ -3628,7 +3630,7 @@ img {
   }
 
   .desktop\:bg-secondary {
-    background-color: rgb(255, 180, 0);
+    background-color: rgb(245, 120, 0);
   }
 
   .desktop\:bg-secondaryText {
@@ -3668,7 +3670,7 @@ img {
   }
 
   .desktop\:hover\:bg-secondary:hover {
-    background-color: rgb(255, 180, 0);
+    background-color: rgb(245, 120, 0);
   }
 
   .desktop\:hover\:bg-secondaryText:hover {
@@ -3708,7 +3710,7 @@ img {
   }
 
   .desktop\:focus\:bg-secondary:focus {
-    background-color: rgb(255, 180, 0);
+    background-color: rgb(245, 120, 0);
   }
 
   .desktop\:focus\:bg-secondaryText:focus {
@@ -3748,7 +3750,7 @@ img {
   }
 
   .toggleCheck:checked ~ .desktop\:toggleChecked\:bg-secondary {
-    background-color: rgb(255, 180, 0);
+    background-color: rgb(245, 120, 0);
   }
 
   .toggleCheck:checked ~ .desktop\:toggleChecked\:bg-secondaryText {
@@ -3852,7 +3854,7 @@ img {
   }
 
   .desktop\:border-secondary {
-    border-color: rgb(255, 180, 0);
+    border-color: rgb(245, 120, 0);
   }
 
   .desktop\:border-secondaryText {
@@ -3892,7 +3894,7 @@ img {
   }
 
   .desktop\:hover\:border-secondary:hover {
-    border-color: rgb(255, 180, 0);
+    border-color: rgb(245, 120, 0);
   }
 
   .desktop\:hover\:border-secondaryText:hover {
@@ -3932,7 +3934,7 @@ img {
   }
 
   .desktop\:focus\:border-secondary:focus {
-    border-color: rgb(255, 180, 0);
+    border-color: rgb(245, 120, 0);
   }
 
   .desktop\:focus\:border-secondaryText:focus {
@@ -5865,7 +5867,7 @@ img {
   }
 
   .desktop\:text-secondary {
-    color: rgb(255, 180, 0);
+    color: rgb(245, 120, 0);
   }
 
   .desktop\:text-secondaryText {
@@ -5905,7 +5907,7 @@ img {
   }
 
   .desktop\:hover\:text-secondary:hover {
-    color: rgb(255, 180, 0);
+    color: rgb(245, 120, 0);
   }
 
   .desktop\:hover\:text-secondaryText:hover {
@@ -5945,7 +5947,7 @@ img {
   }
 
   .desktop\:focus\:text-secondary:focus {
-    color: rgb(255, 180, 0);
+    color: rgb(245, 120, 0);
   }
 
   .desktop\:focus\:text-secondaryText:focus {
@@ -5985,7 +5987,7 @@ img {
   }
 
   .toggleCheck:checked ~ .desktop\:toggleChecked\:text-secondary {
-    color: rgb(255, 180, 0);
+    color: rgb(245, 120, 0);
   }
 
   .toggleCheck:checked ~ .desktop\:toggleChecked\:text-secondaryText {
