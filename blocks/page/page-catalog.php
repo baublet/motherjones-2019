@@ -40,6 +40,10 @@
                         options: {
                             "product": {
                                 "variantId": "all",
+                                "width": "380px",
+                                "text": {
+                                    "button": "Add to Cart"
+                                },
                                 "contents": {
                                     "imgWithCarousel": false,
                                     "variantTitle": false,
