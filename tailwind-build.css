@@ -567,12 +567,19 @@ img {
   float: left;
 }
 
+.buttonLarge {
+  padding: 1rem;
+  font-size: 1.125rem;
+}
+
 .buttonPrimary {
   background-color: rgb(98, 111, 162);
   color: rgb(240, 240, 240);
   padding: .5rem;
   font-weight: 700;
   border-radius: .25rem;
+  font-size: 1rem;
+  text-decoration: none;
 }
 
 .buttonPrimary:hover,
@@ -587,6 +594,8 @@ img {
   padding: .5rem;
   font-weight: 700;
   border-radius: .25rem;
+  font-size: 1rem;
+  text-decoration: none;
 }
 
 .buttonSecondary:hover,

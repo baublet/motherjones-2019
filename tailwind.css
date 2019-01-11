@@ -62,8 +62,12 @@ img {
   float: left;
 }
 
+.buttonLarge {
+  @apply p-base text-lg;
+}
+
 .buttonPrimary {
-  @apply bg-primary text-primaryText p-sm font-bold rounded;
+  @apply bg-primary text-primaryText p-sm font-bold rounded text-base no-underline;
 }
 
 .buttonPrimary:hover,
@@ -72,7 +76,7 @@ img {
 }
 
 .buttonSecondary {
-  @apply bg-secondary text-secondaryText p-sm font-bold rounded;
+  @apply bg-secondary text-secondaryText p-sm font-bold rounded text-base no-underline;
 }
 
 .buttonSecondary:hover,
