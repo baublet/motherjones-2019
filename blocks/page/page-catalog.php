@@ -1,9 +1,9 @@
-<section class="contentBlock">
+<section class="contentBlock mt-lg">
 <div class="desktop:flex flex-wrap">
 
 <?php if (have_rows('products')): ?>
     <?php while (have_rows('products')): the_row(); ?>
-        <div id='product-component-<?php the_sub_field('id'); ?>' class="w-full desktop:w-1/3"></div>
+        <div id='product-component-<?php the_sub_field('id'); ?>' class="w-full desktop:w-1/4 desktop:px-base"></div>
         <script type="text/javascript">
         /*<![CDATA[*/
         (function () {
