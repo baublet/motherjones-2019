@@ -145,7 +145,7 @@ img {
 
 @screen desktop {
   .navigationStripe {
-    @apply border-foregroundSlight border-solid border-b;
+    @apply border-foregroundSlight border-solid border-b border-t;
   }
   .navigationPanel {
     columns: auto;
