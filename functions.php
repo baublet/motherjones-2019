@@ -17,6 +17,13 @@ function customThemeSupport()
     } else {
         automatic_feed_links();
     }
+
+    // Enable WooCommerce and remove some of its basic garbage
+    add_theme_support('woocommerce');
+    add_filter('woocommerce_enqueue_styles', '__return_false');
+    remove_theme_support('wc-product-gallery-zoom');
+    remove_theme_support('wc-product-gallery-lightbox');
+    remove_theme_support('wc-product-gallery-slider');
 }
 
 add_action('after_setup_theme', 'customThemeSupport');
