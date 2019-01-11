@@ -23,6 +23,10 @@ h6 {
   @apply leading-tight;
 }
 
+h1 {
+  @apply text-5xl font-normal;
+}
+
 img {
   display: block;
 }
@@ -140,6 +144,9 @@ img {
 }
 
 @screen desktop {
+  .navigationStripe {
+    @apply border-foregroundSlight border-solid border-b;
+  }
   .navigationPanel {
     columns: auto;
   }
