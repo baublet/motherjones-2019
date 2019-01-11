@@ -5,6 +5,9 @@
         the_post();
         // Load default block template page
         get_template_part('blocks/page/page', 'default');
+        if (have_rows('products')) {
+            get_template_part('blocks/page/page', 'catalog');
+        }
     }
     ?>
 </section>
