@@ -24,7 +24,7 @@ h6 {
 }
 
 h1 {
-  @apply text-5xl font-normal;
+  @apply text-5xl font-normal mt-lg mb-base;
 }
 
 img {
