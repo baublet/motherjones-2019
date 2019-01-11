@@ -28,73 +28,73 @@
 
             function ShopifyBuyInit() {
                 var client = ShopifyBuy.buildClient({
-                domain: 'mother-jones-museum.myshopify.com',
-                storefrontAccessToken: 'e6f9ae963da421036f6d6cfc1e935cdd',
+                    domain: 'mother-jones-museum.myshopify.com',
+                    storefrontAccessToken: 'e6f9ae963da421036f6d6cfc1e935cdd',
                 });
 
                 ShopifyBuy.UI.onReady(client).then(function (ui) {
-                ui.createComponent('product', {
-                    id: [<?php the_sub_field('id'); ?>],
-                    node: document.getElementById('product-component-<?php the_sub_field('id'); ?>'),
-                    moneyFormat: '%24%7B%7Bamount%7D%7D',
-                    options: {
-                        "product": {
-                            "variantId": "all",
-                            "contents": {
-                            "imgWithCarousel": false,
-                            "variantTitle": false,
-                            "description": false,
-                            "buttonWithQuantity": false,
-                            "quantity": false
-                            },
-                            "styles": {
+                    ui.createComponent('product', {
+                        id: [<?php the_sub_field('id'); ?>],
+                        node: document.getElementById('product-component-<?php the_sub_field('id'); ?>'),
+                        moneyFormat: '%24%7B%7Bamount%7D%7D',
+                        options: {
                             "product": {
-                                "@media (min-width: 601px)": {
-                                "max-width": "calc(25% - 20px)",
-                                "margin-left": "20px",
-                                "margin-bottom": "50px"
+                                "variantId": "all",
+                                "contents": {
+                                    "imgWithCarousel": false,
+                                    "variantTitle": false,
+                                    "description": false,
+                                    "buttonWithQuantity": false,
+                                    "quantity": false
+                                },
+                                "styles": {
+                                    "product": {
+                                        // "@media (min-width: 601px)": {
+                                        //     "max-width": "calc(25% - 20px)",
+                                        //     "margin-left": "20px",
+                                        //     "margin-bottom": "50px"
+                                        // }
+                                    }
                                 }
-                            }
-                            }
-                        },
-                        "cart": {
-                            "contents": {
-                            "button": true
                             },
-                            "styles": {
-                            "footer": {
-                                "background-color": "#ffffff"
-                            }
-                            }
-                        },
-                        "modalProduct": {
-                            "contents": {
-                            "img": false,
-                            "imgWithCarousel": true,
-                            "variantTitle": false,
-                            "buttonWithQuantity": true,
-                            "button": false,
-                            "quantity": false
+                            "cart": {
+                                "contents": {
+                                    "button": true
+                                },
+                                "styles": {
+                                    "footer": {
+                                        "background-color": "#ffffff"
+                                    }
+                                }
                             },
-                            "styles": {
-                            "product": {
-                                "@media (min-width: 601px)": {
-                                "max-width": "100%",
-                                "margin-left": "0px",
-                                "margin-bottom": "0px"
+                            "modalProduct": {
+                                "contents": {
+                                    "img": false,
+                                    "imgWithCarousel": true,
+                                    "variantTitle": false,
+                                    "buttonWithQuantity": true,
+                                    "button": false,
+                                    "quantity": false
+                                },
+                                "styles": {
+                                    "product": {
+                                        "@media (min-width: 601px)": {
+                                            "max-width": "100%",
+                                            "margin-left": "0px",
+                                            "margin-bottom": "0px"
+                                        }
+                                    }
+                                }
+                            },
+                            "productSet": {
+                                "styles": {
+                                    "products": {
+                                        "@media (min-width: 601px)": {
+                                            "margin-left": "-20px"
+                                        }
+                                    }
                                 }
                             }
-                            }
-                        },
-                        "productSet": {
-                            "styles": {
-                            "products": {
-                                "@media (min-width: 601px)": {
-                                "margin-left": "-20px"
-                                }
-                            }
-                            }
-                        }
                         }
                     });
                 });
