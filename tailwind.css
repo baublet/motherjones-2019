@@ -62,6 +62,20 @@ img {
   float: left;
 }
 
+.buttonPrimary {
+  @apply bg-primary text-primaryText p-sm font-bold rounded;
+}
+
+.buttonPrimary:hover,
+.buttonPrimary:focus {
+  @apply bg-foreground text-background;
+}
+
+
+
+
+
+
 .navigation {
   @apply bg-primary text-primary;
 }

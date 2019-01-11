@@ -11,7 +11,10 @@ let colors = {
 
   primary: "rgb(98, 111, 162)",
   primaryDark: 'rgb(60, 70, 105)',
-  primaryText: "rgb(240, 240, 240)"
+  primaryText: "rgb(240, 240, 240)",
+
+  secondary: "rgb(255, 180, 0)",
+  secondaryText: "rgb(250, 250, 250)",
 };
 
 module.exports = {
