@@ -99,6 +99,15 @@
                                 //         }
                                 //     }
                                 // }
+                            },
+                            "button": {
+                                "background-color": "rgb(98, 111, 162)",
+                                ":hover": {
+                                    "background-color": "rgb(25, 25, 25)",
+                                },
+                                ":focus": {
+                                    "background-color": "rgb(25, 25, 25)",
+                                }
                             }
                         }
                     });
