@@ -99,7 +99,7 @@ img {
 }
 
 .navigation a {
-  @apply text-primaryText no-underline;
+  @apply text-primaryText no-underline p-sm;
 }
 
 @screen desktop {
@@ -140,7 +140,7 @@ img {
 }
 
 .navigationPanel {
-  columns: 8rem auto;
+  columns: 10rem auto;
 }
 
 @screen desktop {

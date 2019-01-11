@@ -632,6 +632,7 @@ img {
 .navigation a {
   color: rgb(240, 240, 240);
   text-decoration: none;
+  padding: .5rem;
 }
 
 @media (min-width: 940px) {
@@ -673,8 +674,8 @@ img {
 }
 
 .navigationPanel {
-  -webkit-columns: 8rem auto;
-          columns: 8rem auto;
+  -webkit-columns: 10rem auto;
+          columns: 10rem auto;
 }
 
 @media (min-width: 940px) {
