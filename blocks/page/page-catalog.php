@@ -54,11 +54,11 @@
                                 "styles": {
                                     "product": {
                                         "font-family": "Roboto, system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif",
-                                        "@media (min-width: 601px)": {
-                                            "max-width": "calc(25% - 20px)",
-                                            "margin-left": "20px",
-                                            "margin-bottom": "50px"
-                                        }
+                                        // "@media (min-width: 601px)": {
+                                        //     "max-width": "calc(25% - 20px)",
+                                        //     "margin-left": "20px",
+                                        //     "margin-bottom": "50px"
+                                        // }
                                     },
                                     "button": {
                                         "background-color": "rgb(98, 111, 162)",
