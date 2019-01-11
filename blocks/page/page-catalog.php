@@ -3,7 +3,7 @@
 
 <?php if (have_rows('products')): ?>
     <?php while (have_rows('products')): the_row(); ?>
-        <div id='product-component-<?php the_sub_field('id'); ?>' class="w-full desktop:w-1/4 desktop:px-base"></div>
+        <div id='product-component-<?php the_sub_field('id'); ?>' class="w-full desktop:w-1/4 desktop:px-base py-base desktop:py-0"></div>
         <script type="text/javascript">
         /*<![CDATA[*/
         (function () {
