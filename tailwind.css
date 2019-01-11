@@ -62,10 +62,6 @@ img {
   float: left;
 }
 
-.buttonLarge {
-  @apply p-base text-lg;
-}
-
 .buttonPrimary {
   @apply bg-primary text-primaryText p-sm font-bold rounded text-base no-underline inline-block;
 }
@@ -84,6 +80,9 @@ img {
   @apply bg-foreground text-background;
 }
 
+.buttonLarge {
+  @apply p-base text-lg;
+}
 
 .navigation {
   @apply bg-primary text-primary;

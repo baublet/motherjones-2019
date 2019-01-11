@@ -567,11 +567,6 @@ img {
   float: left;
 }
 
-.buttonLarge {
-  padding: 1rem;
-  font-size: 1.125rem;
-}
-
 .buttonPrimary {
   background-color: rgb(98, 111, 162);
   color: rgb(240, 240, 240);
@@ -604,6 +599,11 @@ img {
 .buttonSecondary:focus {
   background-color: rgb(25, 25, 25);
   color: rgb(250, 250, 250);
+}
+
+.buttonLarge {
+  padding: 1rem;
+  font-size: 1.125rem;
 }
 
 .navigation {
