@@ -694,7 +694,7 @@ img {
   }
 
   .menu-header-menu-container > ul > li > a {
-    text-transform: uppercase;
+    font-size: .875rem;
   }
 
   .menu-header-menu-container > ul > .menu-item-has-children {
