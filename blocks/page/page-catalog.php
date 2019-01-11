@@ -1,4 +1,4 @@
-<section class="contentBlock mt-lg">
+<section class="contentBlock mt-lg desktop:mb-lg">
 <div class="desktop:flex flex-wrap">
 
 <?php if (have_rows('products')): ?>
