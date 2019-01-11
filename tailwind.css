@@ -156,6 +156,9 @@ img {
   .menu-header-menu-container > ul > li + li {
     @apply ml-base;
   }
+  .menu-header-menu-container > ul > li > a {
+    text-transform: uppercase;
+  }
   .menu-header-menu-container > ul > .menu-item-has-children {
     position: relative;
   }

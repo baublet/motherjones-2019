@@ -693,6 +693,10 @@ img {
     margin-left: 1rem;
   }
 
+  .menu-header-menu-container > ul > li > a {
+    text-transform: uppercase;
+  }
+
   .menu-header-menu-container > ul > .menu-item-has-children {
     position: relative;
   }
