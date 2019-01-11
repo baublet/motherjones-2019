@@ -26,12 +26,10 @@
                     <span>Navigation</span>
                     <i class="fas fa-ellipsis-v"></i>
                 </label>
-                <div class="navigationStripe">
-                    <div class="contentBlock navigationPanel hidden toggleChecked:block desktop:block p-sm desktop:p-0">
-                        <?php wp_nav_menu([
-                            'menu' => 'main_menu'
-                        ]); ?>
-                    </div>
+                <div class="contentBlock navigationPanel hidden toggleChecked:block desktop:block p-sm desktop:p-0">
+                    <?php wp_nav_menu([
+                        'menu' => 'main_menu'
+                    ]); ?>
                 </div>
             </div>
         </div>
