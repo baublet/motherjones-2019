@@ -47,25 +47,25 @@
                                     "buttonWithQuantity": false,
                                     "quantity": false
                                 },
-                                "styles": {
-                                    "product": {
-                                        // "@media (min-width: 601px)": {
-                                        //     "max-width": "calc(25% - 20px)",
-                                        //     "margin-left": "20px",
-                                        //     "margin-bottom": "50px"
-                                        // }
-                                    }
-                                }
+                                // "styles": {
+                                //     "product": {
+                                //         "@media (min-width: 601px)": {
+                                //             "max-width": "calc(25% - 20px)",
+                                //             "margin-left": "20px",
+                                //             "margin-bottom": "50px"
+                                //         }
+                                //     }
+                                // }
                             },
                             "cart": {
                                 "contents": {
                                     "button": true
                                 },
-                                "styles": {
-                                    "footer": {
-                                        "background-color": "#ffffff"
-                                    }
-                                }
+                                // "styles": {
+                                //     "footer": {
+                                //         "background-color": "#ffffff"
+                                //     }
+                                // }
                             },
                             "modalProduct": {
                                 "contents": {
@@ -76,24 +76,24 @@
                                     "button": false,
                                     "quantity": false
                                 },
-                                "styles": {
-                                    "product": {
-                                        "@media (min-width: 601px)": {
-                                            "max-width": "100%",
-                                            "margin-left": "0px",
-                                            "margin-bottom": "0px"
-                                        }
-                                    }
-                                }
+                                // "styles": {
+                                //     "product": {
+                                //         "@media (min-width: 601px)": {
+                                //             "max-width": "100%",
+                                //             "margin-left": "0px",
+                                //             "margin-bottom": "0px"
+                                //         }
+                                //     }
+                                // }
                             },
                             "productSet": {
-                                "styles": {
-                                    "products": {
-                                        "@media (min-width: 601px)": {
-                                            "margin-left": "-20px"
-                                        }
-                                    }
-                                }
+                                // "styles": {
+                                //     "products": {
+                                //         "@media (min-width: 601px)": {
+                                //             "margin-left": "-20px"
+                                //         }
+                                //     }
+                                // }
                             }
                         }
                     });
