@@ -580,7 +580,7 @@ img {
   border-radius: .25rem;
   font-size: 1rem;
   text-decoration: none;
-  display: block;
+  display: inline-block;
 }
 
 .buttonPrimary:hover,
@@ -597,7 +597,7 @@ img {
   border-radius: .25rem;
   font-size: 1rem;
   text-decoration: none;
-  display: block;
+  display: inline-block;
 }
 
 .buttonSecondary:hover,
