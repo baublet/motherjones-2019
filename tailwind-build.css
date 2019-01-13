@@ -511,6 +511,10 @@ table {
   padding-right: 1rem;
 }
 
+p {
+  max-width: 50rem;
+}
+
 p + p {
   margin-top: 1rem;
 }

@@ -9,6 +9,10 @@
   @apply px-base;
 }
 
+p {
+  @apply max-w-lg;
+}
+
 p + p {
   @apply mt-base;
 }
