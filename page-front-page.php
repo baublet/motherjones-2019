@@ -4,6 +4,7 @@
         <?php the_post(); ?>
         <article <?php post_class('entry'); ?> id="page-<?php the_ID(); ?>" role="page">
             <section class="entry-content">
+                <?= currentPageSlider() ?>
                 <?php the_content(); ?>
             </section>
         </article>
