@@ -101,7 +101,7 @@ img {
 }
 
 .navigation {
-  @apply bg-primary text-primary;
+  @apply bg-primaryDark text-primary;
 }
 
 @screen desktop {
