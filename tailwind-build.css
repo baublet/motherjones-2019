@@ -524,6 +524,8 @@ a:focus {
 
 p {
   max-width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 p + p {
@@ -538,6 +540,9 @@ h5,
 h6 {
   font-family: Playfair Display, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
   line-height: 1.25;
+  max-width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
