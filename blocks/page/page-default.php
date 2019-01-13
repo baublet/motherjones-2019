@@ -1,7 +1,7 @@
 <article <?php post_class('entry'); ?> id="page-<?php the_ID(); ?>" role="page">
-    <div class="page-title bg-primary text-background py-lg">
+    <div class="page-title bg-primary text-background py-lg mb-lg">
         <div class="contentBlock">
-            <h1><?php the_title(); ?></h1>
+            <h1 class="my-0"><?php the_title(); ?></h1>
         </div>
     </div>
     <section class="contentBlock">
