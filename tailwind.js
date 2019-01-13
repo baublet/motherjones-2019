@@ -2,6 +2,7 @@ let defaultConfig = require("tailwindcss/defaultConfig")();
 
 let colors = {
   transparent: "transparent",
+  inherit: "inherit",
 
   foreground: "rgb(25, 25, 25)",
   foregroundSlight: "rgba(25, 25, 25, .1)",
