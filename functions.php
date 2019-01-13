@@ -95,7 +95,7 @@ function currentPageSlider()
         return;
     }
 
-    $slides = get_fields('slides');
+    $slides = get_fields();
     var_dump($slides);
 
     if (empty($slides)) {
