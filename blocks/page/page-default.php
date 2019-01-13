@@ -1,5 +1,5 @@
 <article <?php post_class('entry'); ?> id="page-<?php the_ID(); ?>" role="page">
-    <h1 class="page-title">
+    <h1 class="page-title bg-primary text-background py-base">
         <div class="contentBlock">
             <?php the_title(); ?>
         </div>
