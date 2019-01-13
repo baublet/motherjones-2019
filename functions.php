@@ -95,8 +95,7 @@ function currentPageSlider()
         return;
     }
 
-    $slides = get_fields();
-    var_dump($slides);
+    $slides = get_fields()['slides'];
 
     if (empty($slides)) {
         return;
@@ -140,8 +139,6 @@ function currentPageSlider()
     }
 
     echo "<div class=\"slider\">";
-
-    var_dump($slides); die();
 
     foreach ($slides as $slide) {
         __slide(
