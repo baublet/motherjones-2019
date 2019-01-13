@@ -84,7 +84,7 @@ img {
 
 .buttonPrimary:hover,
 .buttonPrimary:focus {
-  @apply bg-foreground text-background;
+  @apply bg-foreground text-background no-underline;
 }
 
 .buttonSecondary {
@@ -93,7 +93,7 @@ img {
 
 .buttonSecondary:hover,
 .buttonSecondary:focus {
-  @apply bg-foreground text-background;
+  @apply bg-foreground text-background no-underline;
 }
 
 .buttonLarge {

@@ -609,6 +609,7 @@ img {
 .buttonPrimary:focus {
   background-color: rgb(25, 25, 25);
   color: rgb(250, 250, 250);
+  text-decoration: none;
 }
 
 .buttonSecondary {
@@ -626,6 +627,7 @@ img {
 .buttonSecondary:focus {
   background-color: rgb(25, 25, 25);
   color: rgb(250, 250, 250);
+  text-decoration: none;
 }
 
 .buttonLarge {
