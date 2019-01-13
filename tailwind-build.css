@@ -524,8 +524,6 @@ a:focus {
 
 p {
   max-width: 50rem;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 p + p {

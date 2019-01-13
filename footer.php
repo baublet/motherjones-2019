@@ -1,9 +1,9 @@
     </section>
     <footer id="footer" class="footer py-2xl bg-primary text-primaryText">
         <div class="contentBlock">
-            <p>All text copyright 2007-present, Mother Jones Heritage Project, a 501-c-3 non-profit, unless otherwise stated. Our materials come from a variety of sources. Users must contact us, or the rights holders, for any usage of images or similar media. Contact us with any questions.</p>
+            <div>All text copyright 2007-present, Mother Jones Heritage Project, a 501-c-3 non-profit, unless otherwise stated. Our materials come from a variety of sources. Users must contact us, or the rights holders, for any usage of images or similar media. Contact us with any questions.</div>
 
-            <p class="text-center mt-base">
+            <div class="text-center mt-base">
                 <a href="mailto:motherjones1930@hotmail.com">
                     <i class="fas fa-envelope"></i>
                     E-mail
@@ -12,8 +12,8 @@
                     <i class="fas fa-phone"></i>
                     815.754.4750
                 </a>
-            </p>
-            <p class="text-center mt-base">
+            </div>
+            <div class="text-center mt-base">
                 <a href="https://www.facebook.com/MotherJonesLives">
                     <i class="fab fa-facebook"></i>
                     Facebook
@@ -22,7 +22,7 @@
                     <i class="fab fa-twitter-square"></i>
                     Twitter
                 </a>
-            </p>
+            </div>
         </div>
     </footer>
     <?php wp_footer(); ?>
