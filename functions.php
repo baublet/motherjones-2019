@@ -103,7 +103,6 @@ function currentPageSlider()
 
     function __slide($image, $topLine, $bottomLine, $url, $position)
     {
-        var_dump($image); die();
         $imageMin = $image['sizes']['medium_large'];
         $imageMax = $image['url'];
 
@@ -140,6 +139,8 @@ function currentPageSlider()
     }
 
     echo "<div class=\"slider\">";
+
+    var_dump($slides); die();
 
     foreach ($slides as $slide) {
         __slide(
