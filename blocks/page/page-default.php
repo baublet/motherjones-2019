@@ -1,9 +1,9 @@
 <article <?php post_class('entry'); ?> id="page-<?php the_ID(); ?>" role="page">
-    <h1 class="page-title bg-primary text-background py-lg">
+    <div class="page-title bg-primary text-background py-lg">
         <div class="contentBlock">
-            <?php the_title(); ?>
+            <h1><?php the_title(); ?></h1>
         </div>
-    </h1>
+    </div>
     <section class="contentBlock">
         <?php
         // Content example for CSS ajustments - Uncomment it if you need
