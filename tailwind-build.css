@@ -779,6 +779,11 @@ img {
           transform: translateY(-50%);
 }
 
+.slider-content img {
+  width: 100%;
+  height: auto;
+}
+
 .footer a {
   color: rgb(240, 240, 240);
   text-decoration: none;

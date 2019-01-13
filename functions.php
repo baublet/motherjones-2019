@@ -117,19 +117,19 @@ function currentPageSlider()
             </div>
         ";
         $content = empty($bottomLine) && empty($topLine) ? "" : "
-            <div class=\"slider-content--{$position} absolute m-base\">
+            <div class=\"slider-content slider-content--{$position} absolute m-base\">
                 {$topLine}
                 {$bottomLine}
             </div>
         ";
 
         echo "
-            <div class=\"relative\">
+            <div class=\"relative slide\">
                 <a href=\"{$url}\" class=\"block\">
-                    <div>
-                        <picture class=\"block\">
+                    <div class=\"slide-background\">
+                        <picture class=\"block w-full h-auto\">
                             <source srcset=\"{$imageMax}\" media=\"(min-width: 1080px)\">
-                            <img src=\"{$imageMin}\">
+                            <img src=\"{$imageMin}\" class=\"w-full h-auto\">
                         </picture>
                     </div>
                     {$content}
