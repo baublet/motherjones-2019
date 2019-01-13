@@ -221,6 +221,7 @@ module.exports = {
   },
 
   margin: {
+    auto: "auto",
     "0": "0",
     xs: ".333rem",
     sm: ".5rem",

@@ -524,6 +524,8 @@ a:focus {
 
 p {
   max-width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 p + p {
@@ -1989,6 +1991,10 @@ img {
   margin: 0;
 }
 
+.m-auto {
+  margin: auto;
+}
+
 .m-xs {
   margin: .333rem;
 }
@@ -2021,6 +2027,16 @@ img {
 .mx-0 {
   margin-left: 0;
   margin-right: 0;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .my-xs {
@@ -2097,6 +2113,22 @@ img {
 
 .ml-0 {
   margin-left: 0;
+}
+
+.mt-auto {
+  margin-top: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.mb-auto {
+  margin-bottom: auto;
+}
+
+.ml-auto {
+  margin-left: auto;
 }
 
 .mt-xs {
@@ -4868,6 +4900,10 @@ img {
     margin: 0;
   }
 
+  .desktop\:m-auto {
+    margin: auto;
+  }
+
   .desktop\:m-xs {
     margin: .333rem;
   }
@@ -4900,6 +4936,16 @@ img {
   .desktop\:mx-0 {
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .desktop\:my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .desktop\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .desktop\:my-xs {
@@ -4976,6 +5022,22 @@ img {
 
   .desktop\:ml-0 {
     margin-left: 0;
+  }
+
+  .desktop\:mt-auto {
+    margin-top: auto;
+  }
+
+  .desktop\:mr-auto {
+    margin-right: auto;
+  }
+
+  .desktop\:mb-auto {
+    margin-bottom: auto;
+  }
+
+  .desktop\:ml-auto {
+    margin-left: auto;
   }
 
   .desktop\:mt-xs {

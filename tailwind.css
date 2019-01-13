@@ -19,7 +19,7 @@ a:focus {
 }
 
 p {
-  @apply max-w-lg;
+  @apply max-w-lg mx-auto;
 }
 
 p + p {
