@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<section class="entry-section mt-lg">
+<section class="entry-section">
     <?php
     if (have_posts()) {
         the_post();
