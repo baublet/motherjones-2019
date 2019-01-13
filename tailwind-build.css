@@ -511,6 +511,17 @@ table {
   padding-right: 1rem;
 }
 
+a {
+  color: rgb(98, 111, 162);
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: rgb(25, 25, 25);
+  text-decoration: underline;
+}
+
 p {
   max-width: 50rem;
 }

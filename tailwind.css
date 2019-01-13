@@ -9,6 +9,15 @@
   @apply px-base;
 }
 
+a {
+  @apply text-primary no-underline;
+}
+
+a:hover,
+a:focus {
+  @apply text-foreground underline;
+}
+
 p {
   @apply max-w-lg;
 }
