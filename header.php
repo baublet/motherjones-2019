@@ -10,7 +10,7 @@
 </head>
 <body <?php echo body_class('text-foreground bg-background font-bodyText leading-normal'); ?>>
     <header id="header" role="banner">
-        <div class="px-0">
+        <div class="px-0 relative z-50">
             <div class="logo leading-none">
                 <a href="/" class="block">
                     <picture class="block" alt="Mother Jones Museum">
