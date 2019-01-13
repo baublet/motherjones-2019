@@ -3805,6 +3805,10 @@ img {
   z-index: auto;
 }
 
+.bg-pattern {
+  background-image: url(/wp-content/uploads/2019/01/halftone.png);
+}
+
 @media (min-width: 940px) {
   .desktop\:list-reset {
     list-style: none;

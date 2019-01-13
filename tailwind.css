@@ -320,3 +320,7 @@ img {
 }
 
 @tailwind utilities;
+
+.bg-pattern {
+  background-image: url(/wp-content/uploads/2019/01/halftone.png);
+}
