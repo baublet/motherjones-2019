@@ -107,27 +107,27 @@ function currentPageSlider()
         $imageMax = $image['url'];
 
         $topLine = empty($topLine) ? "" : "
-            <div class=\"mojones-slider-top-line\">
+            <div class=\"slider-top-line\">
                 {$topLine}
             </div>
         ";
         $bottomLine = empty($bottomLine) ? "": "
-            <div class=\"mojones-slider-bottom-line\">
+            <div class=\"slider-bottom-line\">
                 {$bottomLine}
             </div>
         ";
         $content = empty($bottomLine) && empty($topLine) ? "" : "
-            <div class=\"mojones-slider-content mojones-slider-content--{$position}\">
+            <div class=\"slider-content--{$position} absolute m-base\">
                 {$topLine}
                 {$bottomLine}
             </div>
         ";
 
         echo "
-            <div class=\"mojones-slider-slide\">
-                <a href=\"{$url}\" class=\"mojones-slider-link\">
-                    <div class=\"mojones-slider-image\">
-                        <picture class=\"mojones-slider-picture-element\">
+            <div class=\"relative\">
+                <a href=\"{$url}\" class=\"block\">
+                    <div>
+                        <picture class=\"block\">
                             <source srcset=\"{$imageMax}\" media=\"(min-width: 1080px)\">
                             <img src=\"{$imageMin}\">
                         </picture>
